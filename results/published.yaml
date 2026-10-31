@@ -1,0 +1,24 @@
+# Published / own-eval numbers used in RESULTS.md. Replica 8 scenes, OVO protocol, percent.
+# Source for every row: the published line of
+# OVO Table II, arXiv 2411.15043. No f-mIoU is published for Replica in that table.
+published:
+  - method: ConceptGraphs
+    miou: 16.7
+    reproduction_tolerance: 3.0   # NOT a published error bar: 003 G2 gate allowed 16.7 +- 3.0
+    macc: 33.7
+    source: "OVO paper (published line, OVO Table II, all classes)"
+  - method: HOV-SG
+    miou: 22.5
+    macc: 34.2
+    source: "OVO paper (published line, OVO Table II)"
+  - method: OVO
+    miou: 27.0
+    macc: 39.1
+    source: "OVO paper (published line, OVO Table II, OVO-mapping all classes)"
+# OVO's own eval code (run_eval.py, Table II flags) on our OVO re-run, pooled over the 8 scenes.
+own_eval:
+  ovo:
+    miou: 27.50
+    macc: 40.20
+    fmiou: 61.40   # log prints "f-mIoU: 61.40%"; the underlying value is 61.35 (0.613511), log precision 0.1
+    source: "results/scores/ovo_own_eval_pooled_8scenes.log (copy of OVO's eval log, ends 'mIoU: 27.50%; mAcc: 40.20%' / 'f-mIoU: 61.40%'); command: pooled_8scenes.COMMAND.md (run archive); 003 G2/G3"

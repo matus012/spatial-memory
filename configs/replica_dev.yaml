@@ -1,0 +1,88 @@
+# Replica-dev (task 006 step 1): the Replica v1 scenes the published protocol does NOT use, for tuning "ours" v2 in
+# the real-scan domain. The protocol's 8 test scenes (room_0-2, office_0-4) are never part of this set.
+# Written and committed 2026-10-28 (CET) BEFORE any number is computed on these scenes (task 006 G3).
+# Source: data/_dl/replica_v1_0.tar.gz.parta? (data/MANIFEST.md), listing in
+# the project's run archive (tar_listing.txt, not published); a scene is kept iff it ships
+# habitat/mesh_semantic.ply and habitat/info_semantic.json.
+scenes:
+  - apartment_0
+  - apartment_1
+  - apartment_2
+  - frl_apartment_0
+  - frl_apartment_1
+  - frl_apartment_2
+  - frl_apartment_3
+  - frl_apartment_4
+  - frl_apartment_5
+  - hotel_0
+dropped: {}            # scene -> reason. Listing done 2026-10-28 22:10 CET: all 18 v1 scenes present, all 10 dev scenes ship both files
+
+# GT rule (same as the protocol scenes, spatialmem.gt.replica): objects + AABBs + relations v2 (docs/RELATIONS.md)
+# from mesh_semantic.ply + info_semantic.json; per-vertex labels = original Replica class of the vertex's incident
+# faces (majority, ties -> smallest class id), reduced to the protocol's 51 classes by
+# third_party/ovo_replica_eval_info.yaml map_to_reduced (unmapped / ignored -> -1, dropped by the scorer).
+# GT points = mesh_semantic.ply vertices (for the protocol scenes these are exactly the NICE <scene>_mesh.ply vertices).
+gt_rule: mesh_semantic_vertex_majority
+
+# Camera = NICE-SLAM Replica (nice-slam configs/Replica/replica.yaml; data/nice/Replica/cam_params.json).
+camera:
+  w: 1200
+  h: 680
+  fx: 600.0
+  fy: 600.0
+  cx: 599.5
+  cy: 339.5
+  scale: 6553.5        # depth png uint16 = round(depth_m * scale); 0 = invalid
+  depth_max_m: 10.0    # as configs/camera.yaml (002)
+
+# Stream: NICE layout data/replica_dev/<scene>/results/{frame%06d.jpg, depth%06d.png}, traj.txt (c2w, OpenCV axes,
+# 16 floats row-major per line, world frame = mesh_semantic.ply, up = +z), cam_params.json.
+frames: 2000           # per scene, as every NICE Replica sequence
+
+# Scripted coverage path (Habitat navmesh; spatialmem.hssd.traj ideas: all islands >= 1 m2, waypoints on the floor).
+# Motion targets come from the 8 NICE sequences (evidence/2026-10-28-006/replica_dev/nice_traj_stats.txt):
+#   camera height above floor: per-scene medians 1.67-1.96 m, median of medians 1.77 m
+#   pitch: per-scene medians -11.0 .. -25.3 deg, median of medians -21.7 deg
+#   per-frame motion: translation median 0.6-1.5 cm, rotation median 0.29-0.48 deg -> 1.1 cm : 0.40 deg = 1.58 m/rad
+trajectory:
+  camera_height_m: 1.77
+  pitch_deg: -21.7
+  grid_m: 2.0            # waypoint grid on the navmesh (see change 2026-10-28b below; 002 used 1.0)
+  agent_radius_m: 0.5    # navmesh recompute: camera path >= 0.5 m from walls / furniture (2026-10-28d; was 0.2 = 002)
+  agent_radius_fallback_m: 0.2   # if no navmesh builds at 0.5 m ("where the navmesh allows", 2026-10-29e); = 002 value
+  max_rot_deg_per_frame: 2.0   # hard cap on yaw change per frame (2026-10-28d)
+  rot_frame_share: 0.5   # look-around budget: spins + turns fit in half the frames at the cap (2026-10-28d, impl choice)
+  # look-around per waypoint = 360 deg if that fits the budget, else (share * 1999 * cap - path turns) / n_waypoints;
+  # frames: each key segment gets max(length / step, |yaw change| / cap) frame intervals, step solved for 2,000 frames
+  seed: 114
+  # waypoint kept iff the nearest mesh face is floor / rug / mat / stair (a walking hand-held camera as in NICE; drops
+  # navmesh islands on beds, tables, the mesh's outer roof). (2026-10-28c: the 002 indoor test is dropped, below.)
+  floor_classes: [floor, rug, mat, stair]
+
+# RGB: habitat-sim 0.3.3 (the 002 image) has no PTex support; v1 streams used mesh_semantic.ply vertex colours rendered
+# flat (no lights) = NICE's <scene>_mesh.ply colours, not NICE's PTex-textured frames (review: sepia, flat, blurred).
+rgb_source: ptex      # 2026-10-28d: option A (habitat_ptex.sif, habitat-sim 0.2.4); fallback B = mesh_semantic_vertex_colours_flat
+
+# Changes (dated). At 2026-10-28b the dev scenes had: apartment_0 GT counts + a 100-frame render-proof smoke (transform
+# check, trajectory-independent); no mapper or tuning number on any dev scene.
+# - 2026-10-28b 22:11 CET, from the 100-frame smoke render of apartment_0 (PERUN 136998; timing / path only):
+#   grid_m 1.0 -> 2.0. At 1.0 m apartment_0 has 144 waypoints = 144 full spins in 2,000 frames -> median 32 deg of
+#   rotation per frame (NICE: 0.29-0.48). 2.0 m quarters the waypoint count; motion stays coarser than NICE on the large
+#   scenes because 2,000 frames cannot cover a multi-room apartment at NICE's per-frame motion (NICE paths 12-29 m).
+# - 2026-10-28c 22:31 CET, from the first full render (PERUN 137027 / 137028, cancelled; path stats only, no
+#   metric): the 002 indoor test (upward ray hits geometry within 6 m on >= half its pixels) is dropped for Replica.
+#   frl_apartment_0 kept 1 waypoint: the FRL ceilings are partial scans (ceiling vertices cover ~1/4 of the floor plan),
+#   so most of the apartment reads as "outdoors". Replica has no outdoors; the floor-class test alone rejects roofs.
+#   Same run fixed spatialmem.gt.replica.up_axis (FRL: partial ceiling -> spread-normalised separation; protocol GT
+#   byte-identical).
+# - 2026-10-28d 23:39 CET, ruling (DEVIATIONS.md row 13) on the v1 streams (vertex colour, 1.6-14.3
+#   deg / frame): option A = PTex RGB from Replica's real textures (mesh.ply + textures/ + habitat/sorted_faces.bin from
+#   http://dl.fbaipublicfiles.com/habitat/sorted_faces.zip, sha256 a6fbdd69..., the Habitat team's ReplicaSDK face order)
+#   rendered with habitat-sim 0.2.4 (hpc/habitat_ptex.def); smoother path: <= 2 deg yaw per frame, navmesh agent radius
+#   0.5 m (>= 0.5 m from walls where the navmesh allows), look-around budget rule above; 2,000 frames, height and pitch
+#   unchanged. Fallback B (if A does not build / render headless): same trajectory, rgb_source vertex colour.
+#   GT unchanged; the v1 streams are kept as runs/replica_dev_v1_vertexcolour, data/replica_dev_v1_vertexcolour.
+# - 2026-10-29e 00:23 CET, from the plan job (PERUN 137141; paths only, no metric): hotel_0 builds no navmesh at
+#   agent radius 0.5 m -> fallback 0.2 m for a scene whose 0.5 m navmesh fails (row 13: "where possible"). Path
+#   planning moved to habitat-sim 0.3.3 (habitat.sif, plan step); the PTex render replays the plan (0.2.4 "Could not build
+#   Detour navmesh", 137135). Measured look-around per waypoint under the 2 deg cap: 0-38 deg (path turns use the budget).

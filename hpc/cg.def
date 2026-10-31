@@ -1,0 +1,108 @@
+Bootstrap: docker
+From: nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
+# 114 ConceptGraphs image (task 003): concept-graphs @ 93277a0 (MIT), class-agnostic variant (SAM "segment all" + CLIP).
+# py3.10.13 (uv), torch 2.0.1+cu118, pytorch3d 0.7.4 / chamferdist / GroundingDINO built here with nvcc 11.8 for
+# sm_80 + sm_90 (H200), gcc 11 (jammy). Pins = concept-graphs environment.yml. Patches: hpc/cg_patches/*.patch.
+# Checkpoints + HF/open_clip cache are NOT baked in: bind $PROJ/cg at /cg (ckpt/, hf/). Build: hpc/build_cg.sh.
+
+%files
+    hpc/cg_patches /opt/cg_patches
+
+%environment
+    export PATH=/opt/venv/bin:$PATH
+    export PYTHONUNBUFFERED=1
+    export GSA_PATH=/opt/gsa
+    export CG_FOLDER=/opt/concept-graphs
+    export HF_HOME=/cg/hf
+    export TORCH_HOME=/cg/torch
+    export MPLBACKEND=Agg
+
+%post
+    set -eu
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get update
+    apt-get install -y --no-install-recommends ca-certificates curl git build-essential ninja-build \
+        libgl1 libglib2.0-0 libgomp1 libsm6 libxext6 libxrender1
+    rm -rf /var/lib/apt/lists/* /usr/local/cuda/compat   # never shadow the host driver's libcuda
+    curl -LsSf https://astral.sh/uv/0.12.19/install.sh | env UV_INSTALL_DIR=/usr/local/bin UV_NO_MODIFY_PATH=1 sh
+    export UV_PYTHON_INSTALL_DIR=/opt/python UV_LINK_MODE=copy UV_NO_CACHE=1
+    uv python install 3.10.13
+    uv venv --seed --python 3.10.13 /opt/venv
+    export PATH=/opt/venv/bin:$PATH
+    export CUDA_HOME=/usr/local/cuda TORCH_CUDA_ARCH_LIST="8.0;9.0+PTX" FORCE_CUDA=1 MAX_JOBS=32
+    PY=/opt/venv/bin/python
+    # pins from concept-graphs environment.yml (pip section + conda numpy/scipy/pillow/matplotlib)
+    cat > /opt/constraints.txt <<'EOF'
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+numpy==1.24.3
+scipy==1.10.1
+pillow==9.4.0
+matplotlib==3.7.2
+open3d==0.17.0
+transformers==4.31.0
+tokenizers==0.13.3
+hydra-core==1.3.2
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+open-clip-torch==2.20.0
+supervision==0.14.0
+timm==0.6.13
+tyro==0.5.9
+distinctipy==1.2.3
+h5py==3.9.0
+imageio==2.31.1
+imageio-ffmpeg==0.4.9
+kornia==0.7.0
+natsort==8.4.0
+faiss-cpu==1.7.4
+addict==2.4.0
+yapf==0.31.0
+pycocotools==2.0.7
+fairscale==0.4.4
+scikit-learn==1.2.2
+protobuf==3.20.3
+EOF
+    uv pip install --python $PY --index-url https://download.pytorch.org/whl/cu118 --extra-index-url https://pypi.org/simple \
+        --index-strategy unsafe-best-match -c /opt/constraints.txt torch torchvision
+    uv pip install --python $PY -c /opt/constraints.txt "setuptools<70" wheel ninja numpy scipy pillow matplotlib open3d \
+        transformers tokenizers hydra-core omegaconf opencv-python open-clip-torch supervision timm tyro distinctipy h5py \
+        imageio imageio-ffmpeg kornia natsort faiss-cpu addict yapf pycocotools fairscale scikit-learn protobuf \
+        plotly tqdm pyyaml fvcore iopath pytest
+    mkdir -p /opt/build && cd /opt/build
+    # pytorch3d 0.7.4 from source (the conda tarball is built against conda torch and may lack sm_90)
+    git clone --branch v0.7.4 --depth 1 https://github.com/facebookresearch/pytorch3d.git
+    uv pip install --python $PY --no-build-isolation --no-deps ./pytorch3d
+    git clone https://github.com/krrish94/chamferdist.git && git -C chamferdist checkout -q ee753899b583bdc06bd2505dc162fd54ba0c6c5b
+    uv pip install --python $PY --no-build-isolation --no-deps ./chamferdist
+    git clone https://github.com/gradslam/gradslam.git && git -C gradslam checkout -q 59ca872e3d265ad09f63c4793d011fad67064452
+    uv pip install --python $PY --no-build-isolation --no-deps ./gradslam
+    # recognize-anything: only so generate_gsa_results.py's top-level `from ram... import` succeeds (RAM not run)
+    git clone https://github.com/xinyu1205/recognize-anything.git && git -C recognize-anything checkout -q 7cb804a8609e9f4b1a50b7f31436d2df40bb9481
+    uv pip install --python $PY --no-build-isolation --no-deps ./recognize-anything
+    # Grounded-Segment-Anything = GSA_PATH (GroundingDINO is loaded by the script even with --class_set none)
+    git clone https://github.com/IDEA-Research/Grounded-Segment-Anything.git /opt/gsa
+    git -C /opt/gsa checkout -q a4d76a2b55e348943cba4cd57d7553c354296223
+    uv pip install --python $PY --no-build-isolation --no-deps -e /opt/gsa/segment_anything
+    cd /opt/gsa/GroundingDINO && AM_I_DOCKER=1 BUILD_WITH_CUDA=1 uv pip install --python $PY --no-build-isolation --no-deps -e .
+    for f in sam_vit_h_4b8939.pth groundingdino_swint_ogc.pth; do ln -s /cg/ckpt/$f /opt/gsa/$f; done
+    # concept-graphs @ 93277a0 + 114 patches + HSSD dataconfig
+    git clone https://github.com/concept-graphs/concept-graphs.git /opt/concept-graphs
+    cd /opt/concept-graphs && git checkout -q 93277a02bd89171f8121e84203121cf7af9ebb5d
+    sed -i 's/\r$//' /opt/cg_patches/*   # git archive on Windows (text=auto) ships CRLF
+    for p in /opt/cg_patches/*.patch; do git apply "$p"; echo "applied $p"; done
+    mkdir -p conceptgraph/dataset/dataconfigs/hssd && cp /opt/cg_patches/hssd.yaml conceptgraph/dataset/dataconfigs/hssd/hssd.yaml
+    uv pip install --python $PY --no-build-isolation --no-deps -e /opt/concept-graphs
+    uv pip freeze --python $PY > /opt/pip_freeze.txt
+    cd / && rm -rf /opt/build /root/.cache
+    chmod -R a+rX /opt
+
+%test
+    /opt/venv/bin/python -c 'import torch, torchvision, pytorch3d, chamferdist, gradslam, open3d, open_clip, faiss, supervision, groundingdino, segment_anything, ram, conceptgraph; from pytorch3d import _C; from chamferdist import _C as c2; from groundingdino import _C as c3; print("torch", torch.__version__, "cuda", torch.version.cuda, "cudnn", torch.backends.cudnn.version(), "arch", torch.cuda.get_arch_list(), "pytorch3d", pytorch3d.__version__, "open3d", open3d.__version__)'
+
+%labels
+    project 114_spatial_memory
+    stack cuda11.8 py3.10.13 torch2.0.1 concept-graphs@93277a0
+
+%help
+    apptainer exec --nv --bind $PROJ/cg:/cg cg.sif /opt/venv/bin/python /opt/concept-graphs/conceptgraph/...

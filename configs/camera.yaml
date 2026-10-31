@@ -1,0 +1,14 @@
+# HSSD sensor stream camera (task 002 step 6). Fixed before any number.
+width: 640
+height: 480
+hfov_deg: 90            # fx = fy = (W / 2) / tan(hfov / 2) = 320; cx = (W - 1) / 2, cy = (H - 1) / 2 (pixel centres at integers)
+camera_height_m: 1.5    # above the navmesh
+pitch_deg: -20          # look slightly down: tabletops + floor objects in view
+depth_scale: 6553.5     # png = round(depth_m * scale), as NICE-SLAM Replica; 0 = invalid / beyond depth_max
+depth_max_m: 10.0
+# coverage path
+grid_m: 1.0             # waypoint grid on the navmesh
+spin_yaws: 8            # 360 deg spin at each waypoint
+path_step_m: 0.5        # frames along the geodesic path between waypoints
+agent_radius_m: 0.2
+seed: 114

@@ -1,0 +1,46 @@
+Bootstrap: docker
+From: ubuntu:22.04
+# 114 OVO image (task 003): OVO (tberriel/OVO @ e0d16f7, MIT) with `slam_module: vanilla` (GT poses = "OVO-mapping").
+# Plain ubuntu base (112/113 lesson); uv python 3.11 venv at /opt/ovo; torch 2.5.1 cu124 wheels (bundled CUDA, H200 driver is newer).
+# Model checkpoints are NOT baked in: SAM2.1 ckpt, CLIP weights predictor, HF cache live in $PROJ/ovo/ and are bind-mounted.
+# Build on the PERUN login node: hpc/build_ovo.sh (apptainer build --fakeroot).
+
+%environment
+    export PATH=/opt/ovo/bin:$PATH
+    export PYTHONUNBUFFERED=1
+
+%post
+    set -eu
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get update
+    apt-get install -y --no-install-recommends ca-certificates curl git build-essential ninja-build pkg-config \
+        libgl1 libglib2.0-0 libgomp1 libx11-6 libxext6 libsm6 libxrender1
+    rm -rf /var/lib/apt/lists/*
+    curl -LsSf https://astral.sh/uv/0.12.19/install.sh | env UV_INSTALL_DIR=/usr/local/bin UV_NO_MODIFY_PATH=1 sh
+    export UV_PYTHON_INSTALL_DIR=/opt/python UV_LINK_MODE=copy
+    uv python install 3.11
+    uv venv --seed --python 3.11 /opt/ovo
+    export PATH=/opt/ovo/bin:$PATH
+    uv pip install --python /opt/ovo/bin/python "numpy<2" pyyaml tqdm psutil wandb plyfile matplotlib seaborn \
+        opencv-python-headless imageio scipy scikit-learn pandas \
+        torch==2.5.1 torchvision==0.20.1 transformers==4.51.0 open_clip_torch==2.32.0 open3d==0.19.0 \
+        huggingface-hub==0.30.1 einops==0.8.1 gdown timm
+    git clone https://github.com/tberriel/OVO.git /opt/OVO
+    cd /opt/OVO
+    git checkout e0d16f7a459ea5451540c50ac264b00aca3aeb85
+    git submodule update --init --recursive
+    export SAM2_BUILD_CUDA=0
+    uv pip install --python /opt/ovo/bin/python -e thirdParty/segment-anything-2
+    uv pip install --python /opt/ovo/bin/python -e thirdParty/perception_models --no-deps
+    rm -rf /root/.cache
+    chmod -R a+rX /opt/python /opt/ovo /opt/OVO
+
+%test
+    cd /opt/OVO && /opt/ovo/bin/python -c 'import torch, numpy, open3d, open_clip, sam2, transformers; print("torch", torch.__version__, "numpy", numpy.__version__, "open3d", open3d.__version__, "transformers", transformers.__version__)'
+
+%labels
+    project 114_spatial_memory
+    stack ubuntu22.04 py3.11 torch2.5.1 OVO-e0d16f7 sam2-c98aa6b
+
+%help
+    apptainer exec --nv ovo.sif /opt/ovo/bin/python ...

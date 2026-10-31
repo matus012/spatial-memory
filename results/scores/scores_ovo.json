@@ -1,0 +1,8155 @@
+{
+ "method": "ovo",
+ "replica": {
+  "scenes": {
+   "office0": {
+    "n_pred": 144,
+    "n_gt": 34,
+    "obj@0.25": {
+     "tp": 21,
+     "n_pred": 64,
+     "n_gt": 34,
+     "p": 0.328125,
+     "r": 0.6176470588235294,
+     "f1": 0.42857142857142855,
+     "label_correct": 14,
+     "label_acc": 0.6666666666666666
+    },
+    "obj@0.5": {
+     "tp": 16,
+     "n_pred": 64,
+     "n_gt": 34,
+     "p": 0.25,
+     "r": 0.47058823529411764,
+     "f1": 0.32653061224489793,
+     "label_correct": 11,
+     "label_acc": 0.6875
+    },
+    "rel": {
+     "tp": 25,
+     "n_pred": 146,
+     "n_gt": 56,
+     "p": 0.17123287671232876,
+     "r": 0.44642857142857145,
+     "f1": 0.24752475247524755
+    },
+    "confusions": [
+     [
+      "tv-screen",
+      "monitor"
+     ],
+     [
+      "panel",
+      "switch"
+     ],
+     [
+      "switch",
+      "panel"
+     ],
+     [
+      "plant-stand",
+      "vase"
+     ],
+     [
+      "blinds",
+      "panel"
+     ],
+     [
+      "tablet",
+      "sofa"
+     ],
+     [
+      "desk-organizer",
+      "vent"
+     ]
+    ],
+    "sem": {
+     "miou": 0.22561731754990766,
+     "macc": 0.3002668385800241,
+     "fmiou": 0.45328374640565966
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9968571051842775,
+     "macc": 0.9981443520086236,
+     "fmiou": 0.9991485454670013
+    }
+   },
+   "office1": {
+    "n_pred": 79,
+    "n_gt": 28,
+    "obj@0.25": {
+     "tp": 13,
+     "n_pred": 47,
+     "n_gt": 28,
+     "p": 0.2765957446808511,
+     "r": 0.4642857142857143,
+     "f1": 0.34666666666666673,
+     "label_correct": 9,
+     "label_acc": 0.6923076923076923
+    },
+    "obj@0.5": {
+     "tp": 12,
+     "n_pred": 47,
+     "n_gt": 28,
+     "p": 0.2553191489361702,
+     "r": 0.42857142857142855,
+     "f1": 0.32,
+     "label_correct": 8,
+     "label_acc": 0.6666666666666666
+    },
+    "rel": {
+     "tp": 11,
+     "n_pred": 151,
+     "n_gt": 55,
+     "p": 0.0728476821192053,
+     "r": 0.2,
+     "f1": 0.10679611650485438
+    },
+    "confusions": [
+     [
+      "chair",
+      "pillow"
+     ],
+     [
+      "panel",
+      "monitor"
+     ],
+     [
+      "blanket",
+      "pillow"
+     ],
+     [
+      "wall-plug",
+      "pillow"
+     ]
+    ],
+    "sem": {
+     "miou": 0.15312648855904426,
+     "macc": 0.30352855416711827,
+     "fmiou": 0.16715873932882525
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9978707495076158,
+     "macc": 0.9991065846537887,
+     "fmiou": 0.9979197864317262
+    }
+   },
+   "office2": {
+    "n_pred": 131,
+    "n_gt": 43,
+    "obj@0.25": {
+     "tp": 25,
+     "n_pred": 56,
+     "n_gt": 43,
+     "p": 0.44642857142857145,
+     "r": 0.5813953488372093,
+     "f1": 0.5050505050505051,
+     "label_correct": 20,
+     "label_acc": 0.8
+    },
+    "obj@0.5": {
+     "tp": 19,
+     "n_pred": 56,
+     "n_gt": 43,
+     "p": 0.3392857142857143,
+     "r": 0.4418604651162791,
+     "f1": 0.3838383838383838,
+     "label_correct": 14,
+     "label_acc": 0.7368421052631579
+    },
+    "rel": {
+     "tp": 15,
+     "n_pred": 142,
+     "n_gt": 55,
+     "p": 0.1056338028169014,
+     "r": 0.2727272727272727,
+     "f1": 0.15228426395939088
+    },
+    "confusions": [
+     [
+      "tissue-paper",
+      "table"
+     ],
+     [
+      "tablet",
+      "table"
+     ],
+     [
+      "panel",
+      "switch"
+     ],
+     [
+      "panel",
+      "cushion"
+     ],
+     [
+      "camera",
+      "pipe"
+     ]
+    ],
+    "sem": {
+     "miou": 0.2761893180659013,
+     "macc": 0.3446610429391554,
+     "fmiou": 0.6908072850413531
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9954365914098895,
+     "macc": 0.9971937835641287,
+     "fmiou": 0.9987215769552215
+    }
+   },
+   "office3": {
+    "n_pred": 209,
+    "n_gt": 61,
+    "obj@0.25": {
+     "tp": 22,
+     "n_pred": 71,
+     "n_gt": 61,
+     "p": 0.30985915492957744,
+     "r": 0.36065573770491804,
+     "f1": 0.3333333333333333,
+     "label_correct": 17,
+     "label_acc": 0.7727272727272727
+    },
+    "obj@0.5": {
+     "tp": 13,
+     "n_pred": 71,
+     "n_gt": 61,
+     "p": 0.18309859154929578,
+     "r": 0.21311475409836064,
+     "f1": 0.196969696969697,
+     "label_correct": 9,
+     "label_acc": 0.6923076923076923
+    },
+    "rel": {
+     "tp": 25,
+     "n_pred": 267,
+     "n_gt": 142,
+     "p": 0.09363295880149813,
+     "r": 0.176056338028169,
+     "f1": 0.12224938875305624
+    },
+    "confusions": [
+     [
+      "tv-stand",
+      "tv-screen"
+     ],
+     [
+      "tablet",
+      "table"
+     ],
+     [
+      "desk-organizer",
+      "table"
+     ],
+     [
+      "tablet",
+      "table"
+     ],
+     [
+      "tissue-paper",
+      "table"
+     ]
+    ],
+    "sem": {
+     "miou": 0.27071424229857105,
+     "macc": 0.33950230240005524,
+     "fmiou": 0.6697472452080022
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9956285763835945,
+     "macc": 0.9974194425335102,
+     "fmiou": 0.9987313228961066
+    }
+   },
+   "office4": {
+    "n_pred": 133,
+    "n_gt": 31,
+    "obj@0.25": {
+     "tp": 15,
+     "n_pred": 48,
+     "n_gt": 31,
+     "p": 0.3125,
+     "r": 0.4838709677419355,
+     "f1": 0.379746835443038,
+     "label_correct": 13,
+     "label_acc": 0.8666666666666667
+    },
+    "obj@0.5": {
+     "tp": 12,
+     "n_pred": 48,
+     "n_gt": 31,
+     "p": 0.25,
+     "r": 0.3870967741935484,
+     "f1": 0.3037974683544304,
+     "label_correct": 10,
+     "label_acc": 0.8333333333333334
+    },
+    "rel": {
+     "tp": 6,
+     "n_pred": 85,
+     "n_gt": 27,
+     "p": 0.07058823529411765,
+     "r": 0.2222222222222222,
+     "f1": 0.10714285714285715
+    },
+    "confusions": [
+     [
+      "bench",
+      "sofa"
+     ],
+     [
+      "panel",
+      "switch"
+     ]
+    ],
+    "sem": {
+     "miou": 0.3730697417624428,
+     "macc": 0.45276762847500995,
+     "fmiou": 0.7943750038805373
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9977059344719368,
+     "macc": 0.9982527775629777,
+     "fmiou": 0.9996401019082665
+    }
+   },
+   "room0": {
+    "n_pred": 150,
+    "n_gt": 73,
+    "obj@0.25": {
+     "tp": 31,
+     "n_pred": 70,
+     "n_gt": 73,
+     "p": 0.44285714285714284,
+     "r": 0.4246575342465753,
+     "f1": 0.43356643356643354,
+     "label_correct": 17,
+     "label_acc": 0.5483870967741935
+    },
+    "obj@0.5": {
+     "tp": 17,
+     "n_pred": 70,
+     "n_gt": 73,
+     "p": 0.24285714285714285,
+     "r": 0.2328767123287671,
+     "f1": 0.2377622377622378,
+     "label_correct": 13,
+     "label_acc": 0.7647058823529411
+    },
+    "rel": {
+     "tp": 17,
+     "n_pred": 149,
+     "n_gt": 116,
+     "p": 0.11409395973154363,
+     "r": 0.14655172413793102,
+     "f1": 0.12830188679245286
+    },
+    "confusions": [
+     [
+      "plate",
+      "cabinet"
+     ],
+     [
+      "sofa",
+      "cushion"
+     ],
+     [
+      "candle",
+      "lamp"
+     ],
+     [
+      "book",
+      "cabinet"
+     ],
+     [
+      "window",
+      "blinds"
+     ],
+     [
+      "cushion",
+      "pillow"
+     ],
+     [
+      "blanket",
+      "cushion"
+     ],
+     [
+      "pot",
+      "vase"
+     ],
+     [
+      "cushion",
+      "pillow"
+     ],
+     [
+      "window",
+      "blinds"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "basket",
+      "vase"
+     ],
+     [
+      "book",
+      "table"
+     ]
+    ],
+    "sem": {
+     "miou": 0.32810002960219115,
+     "macc": 0.4101895881336009,
+     "fmiou": 0.6249603590356658
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9981701212836429,
+     "macc": 0.9989907940673136,
+     "fmiou": 0.998515178751316
+    }
+   },
+   "room1": {
+    "n_pred": 92,
+    "n_gt": 45,
+    "obj@0.25": {
+     "tp": 27,
+     "n_pred": 46,
+     "n_gt": 45,
+     "p": 0.5869565217391305,
+     "r": 0.6,
+     "f1": 0.5934065934065934,
+     "label_correct": 22,
+     "label_acc": 0.8148148148148148
+    },
+    "obj@0.5": {
+     "tp": 23,
+     "n_pred": 46,
+     "n_gt": 45,
+     "p": 0.5,
+     "r": 0.5111111111111111,
+     "f1": 0.5054945054945055,
+     "label_correct": 19,
+     "label_acc": 0.8260869565217391
+    },
+    "rel": {
+     "tp": 39,
+     "n_pred": 159,
+     "n_gt": 97,
+     "p": 0.24528301886792453,
+     "r": 0.4020618556701031,
+     "f1": 0.3046875
+    },
+    "confusions": [
+     [
+      "window",
+      "door"
+     ],
+     [
+      "comforter",
+      "bed"
+     ],
+     [
+      "window",
+      "blinds"
+     ],
+     [
+      "nightstand",
+      "cabinet"
+     ],
+     [
+      "panel",
+      "wall-plug"
+     ]
+    ],
+    "sem": {
+     "miou": 0.4581544605868234,
+     "macc": 0.5818070410315341,
+     "fmiou": 0.6859062803654619
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9973277689809449,
+     "macc": 0.9986207726319698,
+     "fmiou": 0.9987190405800006
+    }
+   },
+   "room2": {
+    "n_pred": 126,
+    "n_gt": 52,
+    "obj@0.25": {
+     "tp": 33,
+     "n_pred": 77,
+     "n_gt": 52,
+     "p": 0.42857142857142855,
+     "r": 0.6346153846153846,
+     "f1": 0.5116279069767441,
+     "label_correct": 18,
+     "label_acc": 0.5454545454545454
+    },
+    "obj@0.5": {
+     "tp": 23,
+     "n_pred": 77,
+     "n_gt": 52,
+     "p": 0.2987012987012987,
+     "r": 0.4423076923076923,
+     "f1": 0.35658914728682173,
+     "label_correct": 11,
+     "label_acc": 0.4782608695652174
+    },
+    "rel": {
+     "tp": 41,
+     "n_pred": 238,
+     "n_gt": 116,
+     "p": 0.1722689075630252,
+     "r": 0.35344827586206895,
+     "f1": 0.23163841807909602
+    },
+    "confusions": [
+     [
+      "window",
+      "door"
+     ],
+     [
+      "sculpture",
+      "shelf"
+     ],
+     [
+      "bowl",
+      "shelf"
+     ],
+     [
+      "indoor-plant",
+      "vase"
+     ],
+     [
+      "box",
+      "shelf"
+     ],
+     [
+      "box",
+      "shelf"
+     ],
+     [
+      "box",
+      "shelf"
+     ],
+     [
+      "sculpture",
+      "shelf"
+     ],
+     [
+      "bottle",
+      "vase"
+     ],
+     [
+      "plate",
+      "shelf"
+     ],
+     [
+      "switch",
+      "wall-plug"
+     ],
+     [
+      "box",
+      "shelf"
+     ],
+     [
+      "plate",
+      "cloth"
+     ],
+     [
+      "window",
+      "blinds"
+     ],
+     [
+      "vase",
+      "pot"
+     ]
+    ],
+    "sem": {
+     "miou": 0.21231972978791447,
+     "macc": 0.2874273223681896,
+     "fmiou": 0.6129430239928413
+    },
+    "sem_k5_ceiling": {
+     "miou": 0.9968342756720538,
+     "macc": 0.9982956141140998,
+     "fmiou": 0.9994972535405637
+    }
+   }
+  },
+  "pooled": {
+   "obj@0.25": {
+    "tp": 187,
+    "n_pred": 479,
+    "n_gt": 367,
+    "p": 0.3903966597077244,
+    "r": 0.5095367847411444,
+    "f1": 0.442080378250591,
+    "label_acc": 0.6951871657754011
+   },
+   "obj@0.5": {
+    "tp": 135,
+    "n_pred": 479,
+    "n_gt": 367,
+    "p": 0.2818371607515658,
+    "r": 0.3678474114441417,
+    "f1": 0.3191489361702128,
+    "label_acc": 0.7037037037037037
+   },
+   "rel": {
+    "tp": 179,
+    "n_pred": 1337,
+    "n_gt": 664,
+    "p": 0.1338818249813014,
+    "r": 0.26957831325301207,
+    "f1": 0.1789105447276362
+   },
+   "mean_scene_f1@0.25": 0.4414962128768428
+  },
+  "sem_pooled": {
+   "miou": 0.2674519264269117,
+   "macc": 0.3982102316195773,
+   "fmiou": 0.6124555880038142,
+   "n_scenes": 8
+  },
+  "sem_k5_ceiling_pooled": {
+   "miou": 0.9960287936049634,
+   "macc": 0.9978110132516386,
+   "fmiou": 0.9989012449369913
+  },
+  "confusion_top10": [
+   {
+    "gt": "window",
+    "pred": "blinds",
+    "n": 4
+   },
+   {
+    "gt": "box",
+    "pred": "shelf",
+    "n": 4
+   },
+   {
+    "gt": "panel",
+    "pred": "switch",
+    "n": 3
+   },
+   {
+    "gt": "tablet",
+    "pred": "table",
+    "n": 3
+   },
+   {
+    "gt": "book",
+    "pred": "table",
+    "n": 3
+   },
+   {
+    "gt": "tissue-paper",
+    "pred": "table",
+    "n": 2
+   },
+   {
+    "gt": "cushion",
+    "pred": "pillow",
+    "n": 2
+   },
+   {
+    "gt": "window",
+    "pred": "door",
+    "n": 2
+   },
+   {
+    "gt": "sculpture",
+    "pred": "shelf",
+    "n": 2
+   },
+   {
+    "gt": "tv-screen",
+    "pred": "monitor",
+    "n": 1
+   }
+  ]
+ },
+ "hssd_eval": {
+  "scenes": {
+   "102344457": {
+    "n_pred": 587,
+    "n_gt": 228,
+    "obj@0.25": {
+     "tp": 88,
+     "n_pred": 414,
+     "n_gt": 228,
+     "p": 0.21256038647342995,
+     "r": 0.38596491228070173,
+     "f1": 0.2741433021806854,
+     "label_correct": 45,
+     "label_acc": 0.5113636363636364
+    },
+    "obj@0.5": {
+     "tp": 58,
+     "n_pred": 414,
+     "n_gt": 228,
+     "p": 0.14009661835748793,
+     "r": 0.2543859649122807,
+     "f1": 0.18068535825545173,
+     "label_correct": 27,
+     "label_acc": 0.46551724137931033
+    },
+    "rel": {
+     "tp": 46,
+     "n_pred": 1152,
+     "n_gt": 348,
+     "p": 0.03993055555555555,
+     "r": 0.13218390804597702,
+     "f1": 0.06133333333333333
+    },
+    "confusions": [
+     [
+      "vase",
+      "pillar"
+     ],
+     [
+      "vase",
+      "bottle"
+     ],
+     [
+      "bench",
+      "couch"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "basket",
+      "chair"
+     ],
+     [
+      "table",
+      "couch"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "decoration"
+     ],
+     [
+      "candle",
+      "vase"
+     ],
+     [
+      "picture",
+      "door"
+     ],
+     [
+      "carpet",
+      "table"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "stand",
+      "door"
+     ],
+     [
+      "screen",
+      "decoration"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "decoration",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "ottoman",
+      "chair"
+     ],
+     [
+      "picture",
+      "door"
+     ],
+     [
+      "counter",
+      "table"
+     ],
+     [
+      "tray",
+      "basket"
+     ],
+     [
+      "kitchen_scale",
+      "bowl"
+     ],
+     [
+      "tray",
+      "counter"
+     ],
+     [
+      "wall_clock",
+      "mirror"
+     ],
+     [
+      "picture",
+      "counter"
+     ],
+     [
+      "bench",
+      "cushion"
+     ],
+     [
+      "shower",
+      "door"
+     ],
+     [
+      "picture",
+      "window"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "chest_of_drawers",
+      "decoration"
+     ],
+     [
+      "bottle",
+      "vase"
+     ],
+     [
+      "candle",
+      "soap_dish"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "picture",
+      "mirror"
+     ],
+     [
+      "table",
+      "mirror"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "potted_plant",
+      "cushion"
+     ],
+     [
+      "table",
+      "chair"
+     ]
+    ]
+   },
+   "102815859": {
+    "n_pred": 410,
+    "n_gt": 122,
+    "obj@0.25": {
+     "tp": 49,
+     "n_pred": 239,
+     "n_gt": 122,
+     "p": 0.20502092050209206,
+     "r": 0.4016393442622951,
+     "f1": 0.2714681440443213,
+     "label_correct": 27,
+     "label_acc": 0.5510204081632653
+    },
+    "obj@0.5": {
+     "tp": 31,
+     "n_pred": 239,
+     "n_gt": 122,
+     "p": 0.1297071129707113,
+     "r": 0.2540983606557377,
+     "f1": 0.17174515235457063,
+     "label_correct": 13,
+     "label_acc": 0.41935483870967744
+    },
+    "rel": {
+     "tp": 23,
+     "n_pred": 668,
+     "n_gt": 191,
+     "p": 0.0344311377245509,
+     "r": 0.12041884816753927,
+     "f1": 0.053550640279394636
+    },
+    "confusions": [
+     [
+      "window",
+      "door"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "door",
+      "window"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "coffee_maker",
+      "counter"
+     ],
+     [
+      "table",
+      "counter"
+     ],
+     [
+      "couch",
+      "cushion"
+     ],
+     [
+      "range_hood",
+      "vent"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "cabinet",
+      "towel"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ]
+    ]
+   },
+   "102816066": {
+    "n_pred": 714,
+    "n_gt": 205,
+    "obj@0.25": {
+     "tp": 113,
+     "n_pred": 484,
+     "n_gt": 205,
+     "p": 0.2334710743801653,
+     "r": 0.551219512195122,
+     "f1": 0.328011611030479,
+     "label_correct": 74,
+     "label_acc": 0.6548672566371682
+    },
+    "obj@0.5": {
+     "tp": 76,
+     "n_pred": 484,
+     "n_gt": 205,
+     "p": 0.15702479338842976,
+     "r": 0.37073170731707317,
+     "f1": 0.22060957910014514,
+     "label_correct": 49,
+     "label_acc": 0.6447368421052632
+    },
+    "rel": {
+     "tp": 61,
+     "n_pred": 1112,
+     "n_gt": 251,
+     "p": 0.05485611510791367,
+     "r": 0.24302788844621515,
+     "f1": 0.08950843727072634
+    },
+    "confusions": [
+     [
+      "rack",
+      "shoe_rack"
+     ],
+     [
+      "cabinet",
+      "door"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "fridge",
+      "door"
+     ],
+     [
+      "coffee_maker",
+      "cabinet"
+     ],
+     [
+      "stool",
+      "counter"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "cabinet",
+      "hall_tree"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "mixer",
+      "counter"
+     ],
+     [
+      "kitchen_scale",
+      "counter"
+     ],
+     [
+      "decoration",
+      "gift"
+     ],
+     [
+      "stool",
+      "couch"
+     ],
+     [
+      "cabinet",
+      "towel_rack"
+     ],
+     [
+      "clothes",
+      "towel"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "chair"
+     ],
+     [
+      "picture",
+      "throw"
+     ],
+     [
+      "table_lamp",
+      "box"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "pet_bed",
+      "dog_bed"
+     ],
+     [
+      "bed",
+      "ladder"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "ottoman"
+     ],
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "bench",
+      "wall_board"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "mirror"
+     ],
+     [
+      "media_console",
+      "tv"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "cabinet",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "table"
+     ]
+    ]
+   },
+   "102816600": {
+    "n_pred": 765,
+    "n_gt": 493,
+    "obj@0.25": {
+     "tp": 140,
+     "n_pred": 537,
+     "n_gt": 493,
+     "p": 0.260707635009311,
+     "r": 0.2839756592292089,
+     "f1": 0.27184466019417475,
+     "label_correct": 88,
+     "label_acc": 0.6285714285714286
+    },
+    "obj@0.5": {
+     "tp": 100,
+     "n_pred": 537,
+     "n_gt": 493,
+     "p": 0.186219739292365,
+     "r": 0.2028397565922921,
+     "f1": 0.19417475728155342,
+     "label_correct": 59,
+     "label_acc": 0.59
+    },
+    "rel": {
+     "tp": 93,
+     "n_pred": 1218,
+     "n_gt": 1287,
+     "p": 0.07635467980295567,
+     "r": 0.07226107226107226,
+     "f1": 0.07425149700598802
+    },
+    "confusions": [
+     [
+      "car",
+      "object__outside"
+     ],
+     [
+      "decoration",
+      "railing"
+     ],
+     [
+      "mirror",
+      "door"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "throw",
+      "cushion"
+     ],
+     [
+      "cabinet",
+      "towel"
+     ],
+     [
+      "cabinet",
+      "door"
+     ],
+     [
+      "toilet_paper",
+      "paper_towel"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "ceiling_lamp",
+      "counter"
+     ],
+     [
+      "ceiling_lamp",
+      "stool"
+     ],
+     [
+      "ceiling_lamp",
+      "table"
+     ],
+     [
+      "ceiling_lamp",
+      "table"
+     ],
+     [
+      "potted_plant",
+      "bathroom_accessory"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "ottoman"
+     ],
+     [
+      "candle",
+      "potted_plant"
+     ],
+     [
+      "curtain",
+      "bed"
+     ],
+     [
+      "basket",
+      "potted_plant"
+     ],
+     [
+      "cabinet",
+      "wall_board"
+     ],
+     [
+      "range_hood",
+      "ventilation_hood"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "stairs",
+      "carpet"
+     ],
+     [
+      "table",
+      "mirror"
+     ],
+     [
+      "cushion",
+      "couch"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "toilet",
+      "throw"
+     ],
+     [
+      "box",
+      "stairs"
+     ],
+     [
+      "couch",
+      "cushion"
+     ],
+     [
+      "table",
+      "carpet"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "box",
+      "couch"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "table_lamp",
+      "table"
+     ],
+     [
+      "canister",
+      "trashcan"
+     ],
+     [
+      "table",
+      "media_console"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "book",
+      "trunk"
+     ],
+     [
+      "decoration",
+      "wall_board"
+     ],
+     [
+      "button",
+      "light_switch"
+     ]
+    ]
+   },
+   "102816756": {
+    "n_pred": 861,
+    "n_gt": 344,
+    "obj@0.25": {
+     "tp": 187,
+     "n_pred": 668,
+     "n_gt": 344,
+     "p": 0.27994011976047906,
+     "r": 0.5436046511627907,
+     "f1": 0.3695652173913043,
+     "label_correct": 113,
+     "label_acc": 0.6042780748663101
+    },
+    "obj@0.5": {
+     "tp": 133,
+     "n_pred": 668,
+     "n_gt": 344,
+     "p": 0.19910179640718562,
+     "r": 0.3866279069767442,
+     "f1": 0.2628458498023715,
+     "label_correct": 82,
+     "label_acc": 0.6165413533834586
+    },
+    "rel": {
+     "tp": 197,
+     "n_pred": 2092,
+     "n_gt": 712,
+     "p": 0.09416826003824091,
+     "r": 0.27668539325842695,
+     "f1": 0.1405135520684736
+    },
+    "confusions": [
+     [
+      "picture",
+      "mirror"
+     ],
+     [
+      "throw",
+      "couch"
+     ],
+     [
+      "couch",
+      "ottoman"
+     ],
+     [
+      "cushion",
+      "couch"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "tray",
+      "decoration"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "vase",
+      "potted_plant"
+     ],
+     [
+      "basket",
+      "pot"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "range_hood",
+      "ventilation_hood"
+     ],
+     [
+      "chair",
+      "stool"
+     ],
+     [
+      "chair",
+      "stool"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "chair",
+      "decoration"
+     ],
+     [
+      "fridge",
+      "cabinet"
+     ],
+     [
+      "chair",
+      "stool"
+     ],
+     [
+      "bathtub",
+      "bathroom_accessory"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "shower",
+      "wall_panel"
+     ],
+     [
+      "container",
+      "trashcan"
+     ],
+     [
+      "table",
+      "decoration"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "stove",
+      "cabinet"
+     ],
+     [
+      "potted_plant",
+      "decoration"
+     ],
+     [
+      "curtain",
+      "decoration"
+     ],
+     [
+      "basket",
+      "potted_plant"
+     ],
+     [
+      "wall_clock",
+      "mirror"
+     ],
+     [
+      "chest_of_drawers",
+      "potted_plant"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "book",
+      "bed"
+     ],
+     [
+      "basket",
+      "potted_plant"
+     ],
+     [
+      "carpet",
+      "bed"
+     ],
+     [
+      "basket",
+      "potted_plant"
+     ],
+     [
+      "book",
+      "wall_board"
+     ],
+     [
+      "basket",
+      "potted_plant"
+     ],
+     [
+      "basket",
+      "throw"
+     ],
+     [
+      "cushion",
+      "bed"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "board",
+      "wall_board"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "computer",
+      "screen"
+     ],
+     [
+      "book",
+      "chair"
+     ],
+     [
+      "clock",
+      "wall_board"
+     ],
+     [
+      "potted_plant",
+      "wall_lamp"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "decoration",
+      "potted_plant"
+     ],
+     [
+      "basket",
+      "wall_board"
+     ],
+     [
+      "wall_clock",
+      "wall_board"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_panel"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "tissue_box",
+      "box"
+     ],
+     [
+      "basket",
+      "wall_board"
+     ],
+     [
+      "laptop",
+      "bed"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "clock",
+      "light_switch"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "hanger",
+      "door"
+     ],
+     [
+      "wall_clock",
+      "mirror"
+     ],
+     [
+      "light_switch",
+      "counter"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ],
+     [
+      "table_lamp",
+      "vase"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "clock",
+      "socket"
+     ]
+    ]
+   },
+   "102816786": {
+    "n_pred": 637,
+    "n_gt": 241,
+    "obj@0.25": {
+     "tp": 115,
+     "n_pred": 451,
+     "n_gt": 241,
+     "p": 0.2549889135254989,
+     "r": 0.47717842323651455,
+     "f1": 0.3323699421965318,
+     "label_correct": 35,
+     "label_acc": 0.30434782608695654
+    },
+    "obj@0.5": {
+     "tp": 79,
+     "n_pred": 451,
+     "n_gt": 241,
+     "p": 0.17516629711751663,
+     "r": 0.3278008298755187,
+     "f1": 0.22832369942196531,
+     "label_correct": 24,
+     "label_acc": 0.3037974683544304
+    },
+    "rel": {
+     "tp": 65,
+     "n_pred": 1155,
+     "n_gt": 451,
+     "p": 0.05627705627705628,
+     "r": 0.14412416851441243,
+     "f1": 0.08094645080946451
+    },
+    "confusions": [
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "headboard"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "stand",
+      "wall_panel"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "decoration",
+      "pillar"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "wall_clock",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "bottle",
+      "wine_rack"
+     ],
+     [
+      "stool",
+      "counter"
+     ],
+     [
+      "trashcan",
+      "stool"
+     ],
+     [
+      "trashcan",
+      "stool"
+     ],
+     [
+      "stool",
+      "counter"
+     ],
+     [
+      "appliance",
+      "bottle"
+     ],
+     [
+      "appliance",
+      "bottle"
+     ],
+     [
+      "appliance",
+      "bottle"
+     ],
+     [
+      "table",
+      "wall_board"
+     ],
+     [
+      "mirror",
+      "door"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "table",
+      "ottoman"
+     ],
+     [
+      "book",
+      "headboard"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "shower",
+      "cabinet"
+     ],
+     [
+      "tablet_computer",
+      "counter"
+     ],
+     [
+      "decoration",
+      "pillar"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "chair"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "printer",
+      "box"
+     ],
+     [
+      "computer",
+      "monitor"
+     ],
+     [
+      "book",
+      "board"
+     ],
+     [
+      "book",
+      "throw"
+     ],
+     [
+      "book",
+      "chair"
+     ],
+     [
+      "book",
+      "shelves"
+     ],
+     [
+      "basket",
+      "pot"
+     ],
+     [
+      "book",
+      "wall_board"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "table",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "wall_board"
+     ],
+     [
+      "book",
+      "magazine_rack"
+     ],
+     [
+      "chest_of_drawers",
+      "shoe_rack"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "cabinet",
+      "mirror"
+     ],
+     [
+      "clothes",
+      "shelves"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "clothes",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "cabinet",
+      "wall_board"
+     ],
+     [
+      "tablet_computer",
+      "screen"
+     ],
+     [
+      "appliance",
+      "bottle"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ]
+    ]
+   },
+   "103997541_171030615": {
+    "n_pred": 421,
+    "n_gt": 254,
+    "obj@0.25": {
+     "tp": 77,
+     "n_pred": 298,
+     "n_gt": 254,
+     "p": 0.25838926174496646,
+     "r": 0.3031496062992126,
+     "f1": 0.27898550724637683,
+     "label_correct": 31,
+     "label_acc": 0.4025974025974026
+    },
+    "obj@0.5": {
+     "tp": 54,
+     "n_pred": 298,
+     "n_gt": 254,
+     "p": 0.18120805369127516,
+     "r": 0.2125984251968504,
+     "f1": 0.19565217391304346,
+     "label_correct": 22,
+     "label_acc": 0.4074074074074074
+    },
+    "rel": {
+     "tp": 41,
+     "n_pred": 743,
+     "n_gt": 355,
+     "p": 0.05518169582772544,
+     "r": 0.11549295774647887,
+     "f1": 0.07468123861566485
+    },
+    "confusions": [
+     [
+      "window",
+      "pillar"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "fridge",
+      "door"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "range_hood",
+      "vent"
+     ],
+     [
+      "wardrobe",
+      "wall_board"
+     ],
+     [
+      "book",
+      "computer"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ],
+     [
+      "trashcan",
+      "table"
+     ],
+     [
+      "mobile_phone",
+      "mobile"
+     ],
+     [
+      "table_lamp",
+      "decoration"
+     ],
+     [
+      "wardrobe",
+      "door"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "screen"
+     ],
+     [
+      "bottle",
+      "counter"
+     ],
+     [
+      "table_lamp",
+      "counter"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "container",
+      "canister"
+     ],
+     [
+      "tray",
+      "counter"
+     ],
+     [
+      "knife_holder",
+      "chopping_board"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "potted_plant",
+      "counter"
+     ],
+     [
+      "potted_plant",
+      "cabinet"
+     ],
+     [
+      "tray",
+      "decoration"
+     ],
+     [
+      "tray",
+      "counter"
+     ],
+     [
+      "bed",
+      "cushion"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "table_lamp",
+      "mirror"
+     ],
+     [
+      "chest_of_drawers",
+      "decoration"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "drinkware",
+      "vase"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "wardrobe",
+      "wall_panel"
+     ],
+     [
+      "bed",
+      "carpet"
+     ],
+     [
+      "chest_of_drawers",
+      "screen"
+     ],
+     [
+      "chest_of_drawers",
+      "bed"
+     ],
+     [
+      "picture",
+      "curtain"
+     ],
+     [
+      "basket",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_panel"
+     ],
+     [
+      "chair",
+      "vase"
+     ]
+    ]
+   },
+   "104348133_171513054": {
+    "n_pred": 249,
+    "n_gt": 109,
+    "obj@0.25": {
+     "tp": 51,
+     "n_pred": 182,
+     "n_gt": 109,
+     "p": 0.2802197802197802,
+     "r": 0.46788990825688076,
+     "f1": 0.3505154639175258,
+     "label_correct": 27,
+     "label_acc": 0.5294117647058824
+    },
+    "obj@0.5": {
+     "tp": 33,
+     "n_pred": 182,
+     "n_gt": 109,
+     "p": 0.1813186813186813,
+     "r": 0.30275229357798167,
+     "f1": 0.22680412371134023,
+     "label_correct": 19,
+     "label_acc": 0.5757575757575758
+    },
+    "rel": {
+     "tp": 23,
+     "n_pred": 389,
+     "n_gt": 139,
+     "p": 0.05912596401028278,
+     "r": 0.16546762589928057,
+     "f1": 0.08712121212121211
+    },
+    "confusions": [
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "cushion",
+      "stool"
+     ],
+     [
+      "cushion",
+      "stool"
+     ],
+     [
+      "carpet",
+      "chair"
+     ],
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "napkin",
+      "carpet"
+     ],
+     [
+      "chair",
+      "stool"
+     ],
+     [
+      "carpet",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "door"
+     ],
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "table_lamp",
+      "pot"
+     ],
+     [
+      "wall_lamp",
+      "light_switch"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "bench",
+      "stool"
+     ],
+     [
+      "chest_of_drawers",
+      "chair"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "shelves",
+      "railing"
+     ],
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "sculpture",
+      "decoration"
+     ],
+     [
+      "sculpture",
+      "chair"
+     ],
+     [
+      "potted_plant",
+      "cushion"
+     ]
+    ]
+   },
+   "104348181_171513120": {
+    "n_pred": 961,
+    "n_gt": 385,
+    "obj@0.25": {
+     "tp": 108,
+     "n_pred": 723,
+     "n_gt": 385,
+     "p": 0.14937759336099585,
+     "r": 0.2805194805194805,
+     "f1": 0.19494584837545123,
+     "label_correct": 72,
+     "label_acc": 0.6666666666666666
+    },
+    "obj@0.5": {
+     "tp": 74,
+     "n_pred": 723,
+     "n_gt": 385,
+     "p": 0.10235131396957123,
+     "r": 0.19220779220779222,
+     "f1": 0.1335740072202166,
+     "label_correct": 54,
+     "label_acc": 0.7297297297297297
+    },
+    "rel": {
+     "tp": 45,
+     "n_pred": 1626,
+     "n_gt": 484,
+     "p": 0.027675276752767528,
+     "r": 0.09297520661157024,
+     "f1": 0.04265402843601896
+    },
+    "confusions": [
+     [
+      "bathtub",
+      "pool"
+     ],
+     [
+      "potted_plant",
+      "hedge"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "chest",
+      "chest_of_drawers"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "plate",
+      "bathroom_accessory"
+     ],
+     [
+      "carpet",
+      "urinal"
+     ],
+     [
+      "bathtub",
+      "bathroom_accessory"
+     ],
+     [
+      "cabinet",
+      "door"
+     ],
+     [
+      "tv",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chair",
+      "headboard"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "curtain",
+      "couch"
+     ],
+     [
+      "curtain",
+      "couch"
+     ],
+     [
+      "shelves",
+      "magazine_rack"
+     ],
+     [
+      "curtain",
+      "window_shutter"
+     ],
+     [
+      "table_lamp",
+      "decoration"
+     ],
+     [
+      "counter",
+      "chest_of_drawers"
+     ],
+     [
+      "computer",
+      "monitor"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "washer_dryer",
+      "vent"
+     ],
+     [
+      "curtain",
+      "vent"
+     ],
+     [
+      "window",
+      "window_shutter"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "chair",
+      "stool"
+     ],
+     [
+      "window",
+      "vent"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "bench",
+      "stool"
+     ],
+     [
+      "chest_of_drawers",
+      "trunk"
+     ],
+     [
+      "chest",
+      "trunk"
+     ]
+    ]
+   },
+   "104862621_172226772": {
+    "n_pred": 394,
+    "n_gt": 135,
+    "obj@0.25": {
+     "tp": 81,
+     "n_pred": 295,
+     "n_gt": 135,
+     "p": 0.2745762711864407,
+     "r": 0.6,
+     "f1": 0.3767441860465116,
+     "label_correct": 50,
+     "label_acc": 0.6172839506172839
+    },
+    "obj@0.5": {
+     "tp": 59,
+     "n_pred": 295,
+     "n_gt": 135,
+     "p": 0.2,
+     "r": 0.43703703703703706,
+     "f1": 0.2744186046511628,
+     "label_correct": 38,
+     "label_acc": 0.6440677966101694
+    },
+    "rel": {
+     "tp": 50,
+     "n_pred": 763,
+     "n_gt": 174,
+     "p": 0.0655307994757536,
+     "r": 0.28735632183908044,
+     "f1": 0.10672358591248667
+    },
+    "confusions": [
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "chest_of_drawers",
+      "ottoman"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "clothes",
+      "wardrobe"
+     ],
+     [
+      "chest_of_drawers",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "carpet",
+      "throw"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "curtain",
+      "window_shutter"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "table",
+      "trunk"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "piano"
+     ],
+     [
+      "wall_lamp",
+      "light_switch"
+     ],
+     [
+      "tv",
+      "window"
+     ],
+     [
+      "drinkware",
+      "decoration"
+     ]
+    ]
+   },
+   "104862660_172226844": {
+    "n_pred": 306,
+    "n_gt": 149,
+    "obj@0.25": {
+     "tp": 76,
+     "n_pred": 237,
+     "n_gt": 149,
+     "p": 0.3206751054852321,
+     "r": 0.5100671140939598,
+     "f1": 0.3937823834196892,
+     "label_correct": 33,
+     "label_acc": 0.4342105263157895
+    },
+    "obj@0.5": {
+     "tp": 52,
+     "n_pred": 237,
+     "n_gt": 149,
+     "p": 0.21940928270042195,
+     "r": 0.348993288590604,
+     "f1": 0.26943005181347146,
+     "label_correct": 24,
+     "label_acc": 0.46153846153846156
+    },
+    "rel": {
+     "tp": 43,
+     "n_pred": 578,
+     "n_gt": 268,
+     "p": 0.07439446366782007,
+     "r": 0.16044776119402984,
+     "f1": 0.1016548463356974
+    },
+    "confusions": [
+     [
+      "decoration",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "fridge"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "decoration"
+     ],
+     [
+      "dog_bed",
+      "couch"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "bottle",
+      "pitcher"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "stool",
+      "bowl"
+     ],
+     [
+      "bottle",
+      "decoration"
+     ],
+     [
+      "animal",
+      "decoration"
+     ],
+     [
+      "bowl",
+      "counter"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "container",
+      "canister"
+     ],
+     [
+      "carpet",
+      "wall_board"
+     ],
+     [
+      "curtain",
+      "bathroom_accessory"
+     ],
+     [
+      "table",
+      "shoe_rack"
+     ],
+     [
+      "rolling_cart",
+      "shower_soap_shelf"
+     ],
+     [
+      "bed",
+      "throw"
+     ],
+     [
+      "rolling_cart",
+      "magazine_rack"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "case",
+      "wall_board"
+     ],
+     [
+      "hanger",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "laundry_basket",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "table",
+      "carpet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "monitor"
+     ],
+     [
+      "tv",
+      "monitor"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "table_lamp"
+     ],
+     [
+      "table",
+      "chair"
+     ]
+    ]
+   },
+   "105515430_173104494": {
+    "n_pred": 555,
+    "n_gt": 213,
+    "obj@0.25": {
+     "tp": 96,
+     "n_pred": 382,
+     "n_gt": 213,
+     "p": 0.2513089005235602,
+     "r": 0.4507042253521127,
+     "f1": 0.3226890756302521,
+     "label_correct": 51,
+     "label_acc": 0.53125
+    },
+    "obj@0.5": {
+     "tp": 67,
+     "n_pred": 382,
+     "n_gt": 213,
+     "p": 0.17539267015706805,
+     "r": 0.3145539906103286,
+     "f1": 0.22521008403361345,
+     "label_correct": 39,
+     "label_acc": 0.582089552238806
+    },
+    "rel": {
+     "tp": 96,
+     "n_pred": 1170,
+     "n_gt": 449,
+     "p": 0.08205128205128205,
+     "r": 0.21380846325167038,
+     "f1": 0.118591723285979
+    },
+    "confusions": [
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "potted_plant",
+      "bowl"
+     ],
+     [
+      "ceiling_lamp",
+      "chandelier"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "ceiling_lamp",
+      "chandelier"
+     ],
+     [
+      "chest_of_drawers",
+      "ceiling_lamp"
+     ],
+     [
+      "book",
+      "board"
+     ],
+     [
+      "book",
+      "box"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "curtain",
+      "door"
+     ],
+     [
+      "bed",
+      "carpet"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "pot",
+      "breadbin"
+     ],
+     [
+      "appliance",
+      "stove"
+     ],
+     [
+      "kitchen_utensil",
+      "vase"
+     ],
+     [
+      "carpet",
+      "couch"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "picture",
+      "decoration"
+     ],
+     [
+      "vase",
+      "bottle"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "trashcan",
+      "canister"
+     ],
+     [
+      "table_lamp",
+      "vase"
+     ],
+     [
+      "vase",
+      "bottle"
+     ],
+     [
+      "computer",
+      "monitor"
+     ],
+     [
+      "table",
+      "workstation"
+     ],
+     [
+      "mobile_phone",
+      "bottle"
+     ],
+     [
+      "picture",
+      "animal"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "book",
+      "cabinet"
+     ],
+     [
+      "tablet_computer",
+      "screen"
+     ],
+     [
+      "jar",
+      "vase"
+     ],
+     [
+      "decoration",
+      "vase"
+     ],
+     [
+      "decoration",
+      "vase"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "bathtub",
+      "carpet"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "vase",
+      "ball"
+     ]
+    ]
+   },
+   "105515448_173104512": {
+    "n_pred": 746,
+    "n_gt": 293,
+    "obj@0.25": {
+     "tp": 114,
+     "n_pred": 479,
+     "n_gt": 293,
+     "p": 0.23799582463465555,
+     "r": 0.3890784982935154,
+     "f1": 0.2953367875647669,
+     "label_correct": 65,
+     "label_acc": 0.5701754385964912
+    },
+    "obj@0.5": {
+     "tp": 75,
+     "n_pred": 479,
+     "n_gt": 293,
+     "p": 0.15657620041753653,
+     "r": 0.25597269624573377,
+     "f1": 0.19430051813471502,
+     "label_correct": 45,
+     "label_acc": 0.6
+    },
+    "rel": {
+     "tp": 68,
+     "n_pred": 1261,
+     "n_gt": 481,
+     "p": 0.05392545598731166,
+     "r": 0.14137214137214138,
+     "f1": 0.0780711825487945
+    },
+    "confusions": [
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "printer",
+      "chair"
+     ],
+     [
+      "cabinet",
+      "wall_panel"
+     ],
+     [
+      "wine_bucket",
+      "kitchen_utensil"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "curtain",
+      "wall_board"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "table",
+      "case"
+     ],
+     [
+      "tv",
+      "monitor"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "stand",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "wall_board"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "tv",
+      "picture_frame"
+     ],
+     [
+      "curtain",
+      "carpet"
+     ],
+     [
+      "vase",
+      "wall_board"
+     ],
+     [
+      "carpet",
+      "vent"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "toy_box",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "book",
+      "board"
+     ],
+     [
+      "toy",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "counter"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "fridge",
+      "mirror"
+     ],
+     [
+      "stool",
+      "counter"
+     ],
+     [
+      "table",
+      "ottoman"
+     ],
+     [
+      "chair",
+      "ottoman"
+     ],
+     [
+      "chest_of_drawers",
+      "table_lamp"
+     ],
+     [
+      "chair",
+      "ottoman"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "shelves",
+      "book"
+     ],
+     [
+      "picture",
+      "screen"
+     ],
+     [
+      "shower",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_panel"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "book",
+      "box"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "desk_clutter",
+      "computer"
+     ],
+     [
+      "desk_clutter",
+      "book"
+     ]
+    ]
+   },
+   "106366104_174226332": {
+    "n_pred": 569,
+    "n_gt": 244,
+    "obj@0.25": {
+     "tp": 109,
+     "n_pred": 390,
+     "n_gt": 244,
+     "p": 0.2794871794871795,
+     "r": 0.44672131147540983,
+     "f1": 0.3438485804416404,
+     "label_correct": 52,
+     "label_acc": 0.47706422018348627
+    },
+    "obj@0.5": {
+     "tp": 74,
+     "n_pred": 390,
+     "n_gt": 244,
+     "p": 0.18974358974358974,
+     "r": 0.30327868852459017,
+     "f1": 0.2334384858044164,
+     "label_correct": 31,
+     "label_acc": 0.4189189189189189
+    },
+    "rel": {
+     "tp": 70,
+     "n_pred": 952,
+     "n_gt": 264,
+     "p": 0.07352941176470588,
+     "r": 0.26515151515151514,
+     "f1": 0.11513157894736842
+    },
+    "confusions": [
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "container",
+      "stool"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "screen"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "curtain"
+     ],
+     [
+      "decoration",
+      "chest_of_drawers"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "bed",
+      "cushion"
+     ],
+     [
+      "radio",
+      "tv"
+     ],
+     [
+      "carpet",
+      "chair"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "bed"
+     ],
+     [
+      "radio",
+      "screen"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "table",
+      "table_lamp"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "toilet",
+      "bathroom_accessory"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "monitor",
+      "screen"
+     ],
+     [
+      "table_lamp",
+      "table"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "couch"
+     ],
+     [
+      "ottoman",
+      "couch"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "counter",
+      "media_console"
+     ],
+     [
+      "wall_board",
+      "tv"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "bench",
+      "table"
+     ],
+     [
+      "table",
+      "table_lamp"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "hanger",
+      "towel_rack"
+     ],
+     [
+      "picture",
+      "bag"
+     ],
+     [
+      "table_lamp",
+      "vent"
+     ],
+     [
+      "decoration",
+      "wall_lamp"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "plush_toy",
+      "vent"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ]
+    ]
+   },
+   "106366410_174226806": {
+    "n_pred": 483,
+    "n_gt": 266,
+    "obj@0.25": {
+     "tp": 86,
+     "n_pred": 345,
+     "n_gt": 266,
+     "p": 0.2492753623188406,
+     "r": 0.3233082706766917,
+     "f1": 0.281505728314239,
+     "label_correct": 42,
+     "label_acc": 0.4883720930232558
+    },
+    "obj@0.5": {
+     "tp": 69,
+     "n_pred": 345,
+     "n_gt": 266,
+     "p": 0.2,
+     "r": 0.2593984962406015,
+     "f1": 0.22585924713584288,
+     "label_correct": 37,
+     "label_acc": 0.5362318840579711
+    },
+    "rel": {
+     "tp": 42,
+     "n_pred": 826,
+     "n_gt": 561,
+     "p": 0.05084745762711865,
+     "r": 0.0748663101604278,
+     "f1": 0.06056236481614996
+    },
+    "confusions": [
+     [
+      "container",
+      "canister"
+     ],
+     [
+      "toaster",
+      "breadbin"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "drinkware",
+      "vase"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "drinkware",
+      "pot"
+     ],
+     [
+      "pet_bed",
+      "bowl"
+     ],
+     [
+      "bowl",
+      "pet_bed"
+     ],
+     [
+      "bowl",
+      "pet_bed"
+     ],
+     [
+      "pot",
+      "trashcan"
+     ],
+     [
+      "bench",
+      "cabinet"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "dog_bed",
+      "pet_bed"
+     ],
+     [
+      "loudspeaker",
+      "tv"
+     ],
+     [
+      "book",
+      "couch"
+     ],
+     [
+      "media_console",
+      "tv"
+     ],
+     [
+      "potted_plant",
+      "decoration"
+     ],
+     [
+      "pet_house",
+      "cabinet"
+     ],
+     [
+      "decoration",
+      "rocking_horse"
+     ],
+     [
+      "counter",
+      "wall_board"
+     ],
+     [
+      "trashcan",
+      "picture_frame"
+     ],
+     [
+      "shelves",
+      "shower_soap_shelf"
+     ],
+     [
+      "shelves",
+      "shower_soap_shelf"
+     ],
+     [
+      "soap",
+      "soap_dispenser"
+     ],
+     [
+      "basket",
+      "wall_board"
+     ],
+     [
+      "computer",
+      "screen"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "chandelier",
+      "punching_bag"
+     ],
+     [
+      "shoe_rack",
+      "cabinet"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "appliance",
+      "vent"
+     ],
+     [
+      "gym_equipment",
+      "weight"
+     ],
+     [
+      "carpet",
+      "board"
+     ],
+     [
+      "shoe_rack",
+      "box"
+     ],
+     [
+      "shoebox",
+      "book"
+     ],
+     [
+      "table",
+      "chest_of_drawers"
+     ],
+     [
+      "shoes",
+      "book"
+     ],
+     [
+      "globe",
+      "mirror"
+     ],
+     [
+      "gym_equipment",
+      "screen"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "curtain",
+      "window_shutter"
+     ],
+     [
+      "platform",
+      "headboard"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ]
+    ]
+   },
+   "106878960_174887073": {
+    "n_pred": 448,
+    "n_gt": 239,
+    "obj@0.25": {
+     "tp": 110,
+     "n_pred": 317,
+     "n_gt": 239,
+     "p": 0.3470031545741325,
+     "r": 0.4602510460251046,
+     "f1": 0.39568345323741,
+     "label_correct": 58,
+     "label_acc": 0.5272727272727272
+    },
+    "obj@0.5": {
+     "tp": 71,
+     "n_pred": 317,
+     "n_gt": 239,
+     "p": 0.22397476340694006,
+     "r": 0.29707112970711297,
+     "f1": 0.25539568345323743,
+     "label_correct": 37,
+     "label_acc": 0.5211267605633803
+    },
+    "rel": {
+     "tp": 79,
+     "n_pred": 697,
+     "n_gt": 458,
+     "p": 0.1133428981348637,
+     "r": 0.17248908296943233,
+     "f1": 0.1367965367965368
+    },
+    "confusions": [
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "chandelier"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "mirror"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "mirror",
+      "carpet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "mirror",
+      "wall_lamp"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "book",
+      "wall_board"
+     ],
+     [
+      "window",
+      "curtain"
+     ],
+     [
+      "sculpture",
+      "mirror"
+     ],
+     [
+      "box",
+      "jewelry_box"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "wardrobe",
+      "mirror"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "box",
+      "decoration"
+     ],
+     [
+      "table",
+      "chair"
+     ],
+     [
+      "candle",
+      "chandelier"
+     ],
+     [
+      "potted_plant",
+      "decoration"
+     ],
+     [
+      "couch",
+      "chair"
+     ],
+     [
+      "container",
+      "vase"
+     ],
+     [
+      "candle",
+      "chandelier"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "bottle",
+      "pot"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "range_hood",
+      "chandelier"
+     ],
+     [
+      "carpet",
+      "table"
+     ],
+     [
+      "container",
+      "canister"
+     ],
+     [
+      "candle",
+      "wall_lamp"
+     ],
+     [
+      "potted_plant",
+      "decoration"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "shelves",
+      "decoration"
+     ],
+     [
+      "book",
+      "rack"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "book",
+      "box"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "couch",
+      "chair"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ]
+    ]
+   },
+   "106879005_174887124": {
+    "n_pred": 562,
+    "n_gt": 133,
+    "obj@0.25": {
+     "tp": 48,
+     "n_pred": 276,
+     "n_gt": 133,
+     "p": 0.17391304347826086,
+     "r": 0.3609022556390977,
+     "f1": 0.23471882640586797,
+     "label_correct": 22,
+     "label_acc": 0.4583333333333333
+    },
+    "obj@0.5": {
+     "tp": 31,
+     "n_pred": 276,
+     "n_gt": 133,
+     "p": 0.11231884057971014,
+     "r": 0.23308270676691728,
+     "f1": 0.15158924205378974,
+     "label_correct": 13,
+     "label_acc": 0.41935483870967744
+    },
+    "rel": {
+     "tp": 11,
+     "n_pred": 402,
+     "n_gt": 141,
+     "p": 0.02736318407960199,
+     "r": 0.07801418439716312,
+     "f1": 0.040515653775322284
+    },
+    "confusions": [
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "flower",
+      "bush"
+     ],
+     [
+      "flower",
+      "bush"
+     ],
+     [
+      "trashcan",
+      "object__outside"
+     ],
+     [
+      "potted_plant",
+      "bush"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "ceiling_lamp",
+      "decoration"
+     ],
+     [
+      "chair",
+      "potted_plant"
+     ],
+     [
+      "chest_of_drawers",
+      "mirror"
+     ],
+     [
+      "wall_lamp",
+      "ceiling_lamp"
+     ],
+     [
+      "plush_toy",
+      "decoration"
+     ],
+     [
+      "shelves",
+      "magazine_rack"
+     ],
+     [
+      "stool",
+      "counter"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "cushion",
+      "couch"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "basket",
+      "bag"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "plant_art",
+      "table"
+     ],
+     [
+      "candle",
+      "tray"
+     ],
+     [
+      "potted_plant",
+      "bush"
+     ]
+    ]
+   },
+   "107733912_175999623": {
+    "n_pred": 335,
+    "n_gt": 188,
+    "obj@0.25": {
+     "tp": 59,
+     "n_pred": 302,
+     "n_gt": 188,
+     "p": 0.19536423841059603,
+     "r": 0.31382978723404253,
+     "f1": 0.24081632653061222,
+     "label_correct": 22,
+     "label_acc": 0.3728813559322034
+    },
+    "obj@0.5": {
+     "tp": 44,
+     "n_pred": 302,
+     "n_gt": 188,
+     "p": 0.1456953642384106,
+     "r": 0.23404255319148937,
+     "f1": 0.1795918367346939,
+     "label_correct": 16,
+     "label_acc": 0.36363636363636365
+    },
+    "rel": {
+     "tp": 41,
+     "n_pred": 611,
+     "n_gt": 398,
+     "p": 0.06710310965630115,
+     "r": 0.10301507537688442,
+     "f1": 0.08126858275520317
+    },
+    "confusions": [
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "chest_of_drawers",
+      "decoration"
+     ],
+     [
+      "stand",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "clock",
+      "table_lamp"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "toilet"
+     ],
+     [
+      "basket",
+      "laundry_basket"
+     ],
+     [
+      "stand",
+      "cabinet"
+     ],
+     [
+      "bathroom_scale",
+      "shoes"
+     ],
+     [
+      "cabinet",
+      "table"
+     ],
+     [
+      "candle",
+      "table"
+     ],
+     [
+      "fireplace",
+      "stove"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "decorative_plate",
+      "cabinet"
+     ],
+     [
+      "microwave",
+      "coffee_maker"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "jar",
+      "canister"
+     ],
+     [
+      "teapot",
+      "kettle"
+     ],
+     [
+      "shelves",
+      "counter"
+     ],
+     [
+      "shelves",
+      "counter"
+     ],
+     [
+      "book",
+      "cabinet"
+     ],
+     [
+      "carpet",
+      "counter"
+     ],
+     [
+      "clothes",
+      "hanger"
+     ],
+     [
+      "toilet_paper",
+      "paper_towel"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "door",
+      "window"
+     ],
+     [
+      "wall_lamp",
+      "wall_board"
+     ],
+     [
+      "wall_clock",
+      "wall_board"
+     ],
+     [
+      "drinkware",
+      "table"
+     ],
+     [
+      "trashcan",
+      "vent"
+     ],
+     [
+      "toilet_paper",
+      "paper_towel"
+     ],
+     [
+      "soap_dish",
+      "bathroom_accessory"
+     ]
+    ]
+   },
+   "107734158_175999998": {
+    "n_pred": 1063,
+    "n_gt": 442,
+    "obj@0.25": {
+     "tp": 121,
+     "n_pred": 641,
+     "n_gt": 441,
+     "p": 0.18876755070202808,
+     "r": 0.2743764172335601,
+     "f1": 0.22365988909426984,
+     "label_correct": 69,
+     "label_acc": 0.5702479338842975
+    },
+    "obj@0.5": {
+     "tp": 76,
+     "n_pred": 641,
+     "n_gt": 441,
+     "p": 0.11856474258970359,
+     "r": 0.17233560090702948,
+     "f1": 0.14048059149722733,
+     "label_correct": 47,
+     "label_acc": 0.618421052631579
+    },
+    "rel": {
+     "tp": 65,
+     "n_pred": 1940,
+     "n_gt": 926,
+     "p": 0.03350515463917526,
+     "r": 0.07019438444924406,
+     "f1": 0.045359385903698535
+    },
+    "confusions": [
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "door",
+      "window"
+     ],
+     [
+      "potted_plant",
+      "bush"
+     ],
+     [
+      "potted_plant",
+      "bush"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "potted_plant",
+      "bush"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "bush",
+      "hedge"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "potted_plant",
+      "throw"
+     ],
+     [
+      "potted_plant",
+      "bush"
+     ],
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "bed",
+      "couch"
+     ],
+     [
+      "monitor",
+      "tv"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "stand",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "bathtub",
+      "sink"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "table_lamp",
+      "throw"
+     ],
+     [
+      "bathtub",
+      "sink"
+     ],
+     [
+      "beam",
+      "wall_panel"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "cabinet",
+      "door"
+     ],
+     [
+      "cabinet",
+      "wall_panel"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "shelves",
+      "counter"
+     ],
+     [
+      "cabinet",
+      "box"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "knife_holder",
+      "table"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "candle",
+      "table"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "table",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "computer",
+      "monitor"
+     ],
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "shower",
+      "door"
+     ],
+     [
+      "picture",
+      "chair"
+     ]
+    ]
+   },
+   "107734188_176000034": {
+    "n_pred": 567,
+    "n_gt": 342,
+    "obj@0.25": {
+     "tp": 103,
+     "n_pred": 397,
+     "n_gt": 342,
+     "p": 0.2594458438287154,
+     "r": 0.30116959064327486,
+     "f1": 0.27875507442489855,
+     "label_correct": 44,
+     "label_acc": 0.42718446601941745
+    },
+    "obj@0.5": {
+     "tp": 77,
+     "n_pred": 397,
+     "n_gt": 342,
+     "p": 0.19395465994962216,
+     "r": 0.22514619883040934,
+     "f1": 0.20838971583220567,
+     "label_correct": 34,
+     "label_acc": 0.44155844155844154
+    },
+    "rel": {
+     "tp": 47,
+     "n_pred": 938,
+     "n_gt": 523,
+     "p": 0.050106609808102345,
+     "r": 0.08986615678776291,
+     "f1": 0.06433949349760437
+    },
+    "confusions": [
+     [
+      "gym_equipment",
+      "punching_bag"
+     ],
+     [
+      "gym_equipment",
+      "mirror"
+     ],
+     [
+      "stool",
+      "box"
+     ],
+     [
+      "gym_equipment",
+      "ball"
+     ],
+     [
+      "tv",
+      "wall_board"
+     ],
+     [
+      "clock",
+      "screen"
+     ],
+     [
+      "shelves",
+      "beam"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "shelves",
+      "beam"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "table",
+      "chair"
+     ],
+     [
+      "ceiling_lamp",
+      "pillar"
+     ],
+     [
+      "carpet",
+      "stand"
+     ],
+     [
+      "computer",
+      "screen"
+     ],
+     [
+      "shelves",
+      "board"
+     ],
+     [
+      "wall_lamp",
+      "wall_board"
+     ],
+     [
+      "wall_lamp",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "wall_lamp",
+      "wall_board"
+     ],
+     [
+      "arcade_game",
+      "pillar"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "wall_lamp",
+      "wall_board"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "loudspeaker",
+      "light_switch"
+     ],
+     [
+      "table_lamp",
+      "ceiling_lamp"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "cushion",
+      "carpet"
+     ],
+     [
+      "picture",
+      "wall_lamp"
+     ],
+     [
+      "book",
+      "wall_board"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "book",
+      "wall_panel"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "shelves",
+      "towel"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "picture",
+      "wall_panel"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "panel",
+      "screen"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "radio",
+      "tv"
+     ],
+     [
+      "radio",
+      "tv"
+     ],
+     [
+      "arcade_game",
+      "cabinet"
+     ],
+     [
+      "table",
+      "media_console"
+     ],
+     [
+      "picture",
+      "screen"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "fridge",
+      "door"
+     ],
+     [
+      "bowl",
+      "soap_dish"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "clothes_rack",
+      "door"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "mobile_phone",
+      "light_switch"
+     ],
+     [
+      "board",
+      "screen"
+     ],
+     [
+      "couch",
+      "screen"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "book",
+      "wall_panel"
+     ],
+     [
+      "table_lamp",
+      "tripod"
+     ],
+     [
+      "couch",
+      "chair"
+     ]
+    ]
+   },
+   "107734227_176000091": {
+    "n_pred": 446,
+    "n_gt": 244,
+    "obj@0.25": {
+     "tp": 109,
+     "n_pred": 331,
+     "n_gt": 244,
+     "p": 0.3293051359516616,
+     "r": 0.44672131147540983,
+     "f1": 0.37913043478260866,
+     "label_correct": 66,
+     "label_acc": 0.6055045871559633
+    },
+    "obj@0.5": {
+     "tp": 80,
+     "n_pred": 331,
+     "n_gt": 244,
+     "p": 0.24169184290030213,
+     "r": 0.32786885245901637,
+     "f1": 0.2782608695652174,
+     "label_correct": 47,
+     "label_acc": 0.5875
+    },
+    "rel": {
+     "tp": 85,
+     "n_pred": 803,
+     "n_gt": 412,
+     "p": 0.10585305105853052,
+     "r": 0.20631067961165048,
+     "f1": 0.13991769547325103
+    },
+    "confusions": [
+     [
+      "bed",
+      "cushion"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "bench",
+      "table"
+     ],
+     [
+      "fridge",
+      "door"
+     ],
+     [
+      "range_hood",
+      "vent"
+     ],
+     [
+      "potted_plant",
+      "curtain"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "book",
+      "napkin"
+     ],
+     [
+      "trashcan",
+      "pillar"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "mirror",
+      "picture_frame"
+     ],
+     [
+      "stool",
+      "bench"
+     ],
+     [
+      "bench",
+      "couch"
+     ],
+     [
+      "chest_of_drawers",
+      "wall_panel"
+     ],
+     [
+      "picture",
+      "light_switch"
+     ],
+     [
+      "table",
+      "vase"
+     ],
+     [
+      "candle",
+      "table"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "couch",
+      "cushion"
+     ],
+     [
+      "table",
+      "stool"
+     ],
+     [
+      "window",
+      "curtain"
+     ],
+     [
+      "fireplace",
+      "vent"
+     ],
+     [
+      "chair",
+      "ottoman"
+     ],
+     [
+      "bottle",
+      "pot"
+     ],
+     [
+      "drinkware",
+      "bowl"
+     ],
+     [
+      "cabinet",
+      "wall_board"
+     ],
+     [
+      "washer_dryer",
+      "loudspeaker"
+     ],
+     [
+      "stand",
+      "shoe_rack"
+     ],
+     [
+      "piano",
+      "chair"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "clothes",
+      "towel"
+     ],
+     [
+      "appliance",
+      "record_player"
+     ],
+     [
+      "curtain",
+      "wall_panel"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "couch",
+      "cushion"
+     ],
+     [
+      "fireplace_utensil",
+      "brush"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ],
+     [
+      "stand",
+      "cabinet"
+     ],
+     [
+      "clothes",
+      "throw"
+     ],
+     [
+      "clothes",
+      "towel"
+     ],
+     [
+      "chair",
+      "ottoman"
+     ]
+    ]
+   },
+   "107734287_176000160": {
+    "n_pred": 453,
+    "n_gt": 215,
+    "obj@0.25": {
+     "tp": 103,
+     "n_pred": 317,
+     "n_gt": 215,
+     "p": 0.3249211356466877,
+     "r": 0.4790697674418605,
+     "f1": 0.3872180451127819,
+     "label_correct": 57,
+     "label_acc": 0.5533980582524272
+    },
+    "obj@0.5": {
+     "tp": 88,
+     "n_pred": 317,
+     "n_gt": 215,
+     "p": 0.277602523659306,
+     "r": 0.40930232558139534,
+     "f1": 0.33082706766917297,
+     "label_correct": 50,
+     "label_acc": 0.5681818181818182
+    },
+    "rel": {
+     "tp": 79,
+     "n_pred": 770,
+     "n_gt": 356,
+     "p": 0.1025974025974026,
+     "r": 0.22191011235955055,
+     "f1": 0.14031971580817051
+    },
+    "confusions": [
+     [
+      "vase",
+      "potted_plant"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "counter",
+      "trunk"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "tray",
+      "bowl"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "table",
+      "ottoman"
+     ],
+     [
+      "tablet_computer",
+      "chair"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "fireplace",
+      "wall_lamp"
+     ],
+     [
+      "range_hood",
+      "ventilation_hood"
+     ],
+     [
+      "stove",
+      "cabinet"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "shelves",
+      "bench"
+     ],
+     [
+      "carpet",
+      "board"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "cosmetic",
+      "bottle"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "clothes",
+      "throw"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "ceiling_lamp"
+     ],
+     [
+      "trashcan",
+      "laundry_basket"
+     ],
+     [
+      "trashcan",
+      "laundry_basket"
+     ],
+     [
+      "washer_dryer",
+      "cabinet"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "clothes",
+      "towel"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "couch",
+      "carpet"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "cabinet",
+      "wall_panel"
+     ],
+     [
+      "cushion",
+      "couch"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "cabinet",
+      "cushion"
+     ],
+     [
+      "newspaper",
+      "table"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ]
+    ]
+   },
+   "108294537_176710050": {
+    "n_pred": 818,
+    "n_gt": 371,
+    "obj@0.25": {
+     "tp": 114,
+     "n_pred": 446,
+     "n_gt": 371,
+     "p": 0.2556053811659193,
+     "r": 0.30727762803234504,
+     "f1": 0.27906976744186046,
+     "label_correct": 65,
+     "label_acc": 0.5701754385964912
+    },
+    "obj@0.5": {
+     "tp": 79,
+     "n_pred": 446,
+     "n_gt": 371,
+     "p": 0.17713004484304934,
+     "r": 0.21293800539083557,
+     "f1": 0.19339045287637702,
+     "label_correct": 44,
+     "label_acc": 0.5569620253164557
+    },
+    "rel": {
+     "tp": 57,
+     "n_pred": 1256,
+     "n_gt": 517,
+     "p": 0.04538216560509554,
+     "r": 0.1102514506769826,
+     "f1": 0.06429780033840947
+    },
+    "confusions": [
+     [
+      "towel",
+      "bathroom_accessory"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "animal",
+      "ceiling_lamp"
+     ],
+     [
+      "stand",
+      "cabinet"
+     ],
+     [
+      "shower",
+      "door"
+     ],
+     [
+      "box",
+      "decoration"
+     ],
+     [
+      "table",
+      "cabinet"
+     ],
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "couch",
+      "cushion"
+     ],
+     [
+      "table",
+      "bed"
+     ],
+     [
+      "table",
+      "throw"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "car",
+      "door"
+     ],
+     [
+      "tv",
+      "screen"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "water_dispenser",
+      "pillar"
+     ],
+     [
+      "exercise_bike",
+      "mirror"
+     ],
+     [
+      "table",
+      "pool"
+     ],
+     [
+      "gym_equipment",
+      "weight"
+     ],
+     [
+      "gym_equipment",
+      "pillar"
+     ],
+     [
+      "weight",
+      "punching_bag"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "basket",
+      "trashcan"
+     ],
+     [
+      "tissue_box",
+      "light_switch"
+     ],
+     [
+      "mirror",
+      "door"
+     ],
+     [
+      "table",
+      "chair"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "mirror",
+      "wall_panel"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "trunk",
+      "carpet"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "screen"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "book",
+      "board"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "cushion",
+      "couch"
+     ],
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "drinkware",
+      "vase"
+     ],
+     [
+      "potted_plant",
+      "cabinet"
+     ],
+     [
+      "throw",
+      "couch"
+     ],
+     [
+      "potted_plant",
+      "screen"
+     ],
+     [
+      "shower",
+      "ceiling_lamp"
+     ],
+     [
+      "rack",
+      "board"
+     ],
+     [
+      "book",
+      "wall_board"
+     ]
+    ]
+   },
+   "108294765_176710386": {
+    "n_pred": 268,
+    "n_gt": 112,
+    "obj@0.25": {
+     "tp": 50,
+     "n_pred": 203,
+     "n_gt": 112,
+     "p": 0.24630541871921183,
+     "r": 0.44642857142857145,
+     "f1": 0.3174603174603175,
+     "label_correct": 24,
+     "label_acc": 0.48
+    },
+    "obj@0.5": {
+     "tp": 36,
+     "n_pred": 203,
+     "n_gt": 112,
+     "p": 0.17733990147783252,
+     "r": 0.32142857142857145,
+     "f1": 0.22857142857142856,
+     "label_correct": 18,
+     "label_acc": 0.5
+    },
+    "rel": {
+     "tp": 32,
+     "n_pred": 602,
+     "n_gt": 163,
+     "p": 0.053156146179401995,
+     "r": 0.19631901840490798,
+     "f1": 0.08366013071895426
+    },
+    "confusions": [
+     [
+      "counter",
+      "cabinet"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "mirror",
+      "cabinet"
+     ],
+     [
+      "jar",
+      "canister"
+     ],
+     [
+      "jar",
+      "pot"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "jar",
+      "canister"
+     ],
+     [
+      "fireplace",
+      "couch"
+     ],
+     [
+      "couch",
+      "counter"
+     ],
+     [
+      "washer_dryer",
+      "counter"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "dishwasher",
+      "fridge"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "teapot",
+      "kettle"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "bathtub",
+      "door"
+     ],
+     [
+      "fireplace",
+      "wall_panel"
+     ],
+     [
+      "shower",
+      "wall_board"
+     ],
+     [
+      "counter",
+      "sink"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "bathtub",
+      "toilet"
+     ],
+     [
+      "fridge",
+      "wall_lamp"
+     ],
+     [
+      "cabinet",
+      "ladder"
+     ]
+    ]
+   },
+   "108736635_177263256": {
+    "n_pred": 423,
+    "n_gt": 165,
+    "obj@0.25": {
+     "tp": 99,
+     "n_pred": 328,
+     "n_gt": 165,
+     "p": 0.3018292682926829,
+     "r": 0.6,
+     "f1": 0.4016227180527383,
+     "label_correct": 59,
+     "label_acc": 0.5959595959595959
+    },
+    "obj@0.5": {
+     "tp": 72,
+     "n_pred": 328,
+     "n_gt": 165,
+     "p": 0.21951219512195122,
+     "r": 0.43636363636363634,
+     "f1": 0.2920892494929006,
+     "label_correct": 48,
+     "label_acc": 0.6666666666666666
+    },
+    "rel": {
+     "tp": 68,
+     "n_pred": 957,
+     "n_gt": 203,
+     "p": 0.07105538140020899,
+     "r": 0.33497536945812806,
+     "f1": 0.11724137931034483
+    },
+    "confusions": [
+     [
+      "basket",
+      "vase"
+     ],
+     [
+      "shelves",
+      "stairs"
+     ],
+     [
+      "book",
+      "wall_lamp"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "counter",
+      "bed"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "bowl"
+     ],
+     [
+      "animal",
+      "potted_plant"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "ceiling_lamp",
+      "chandelier"
+     ],
+     [
+      "potted_plant",
+      "decoration"
+     ],
+     [
+      "vase",
+      "kitchen_utensil"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "vase",
+      "counter"
+     ],
+     [
+      "bathtub",
+      "sink"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "animal",
+      "bowl"
+     ],
+     [
+      "clock",
+      "bathroom_accessory"
+     ],
+     [
+      "potted_plant",
+      "pillar"
+     ],
+     [
+      "mirror",
+      "wall_panel"
+     ],
+     [
+      "cushion",
+      "throw"
+     ],
+     [
+      "candle",
+      "candlestick"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "mirror",
+      "picture_frame"
+     ],
+     [
+      "carpet",
+      "wall_panel"
+     ],
+     [
+      "washer_dryer",
+      "mirror"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "shower",
+      "door"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "mirror",
+      "picture_frame"
+     ],
+     [
+      "candle",
+      "canister"
+     ],
+     [
+      "chest_of_drawers",
+      "tray"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "basket",
+      "pot"
+     ],
+     [
+      "candle",
+      "canister"
+     ]
+    ]
+   },
+   "108736656_177263304": {
+    "n_pred": 401,
+    "n_gt": 185,
+    "obj@0.25": {
+     "tp": 79,
+     "n_pred": 311,
+     "n_gt": 185,
+     "p": 0.2540192926045016,
+     "r": 0.42702702702702705,
+     "f1": 0.31854838709677424,
+     "label_correct": 39,
+     "label_acc": 0.4936708860759494
+    },
+    "obj@0.5": {
+     "tp": 43,
+     "n_pred": 311,
+     "n_gt": 185,
+     "p": 0.1382636655948553,
+     "r": 0.23243243243243245,
+     "f1": 0.17338709677419356,
+     "label_correct": 24,
+     "label_acc": 0.5581395348837209
+    },
+    "rel": {
+     "tp": 28,
+     "n_pred": 782,
+     "n_gt": 235,
+     "p": 0.03580562659846547,
+     "r": 0.11914893617021277,
+     "f1": 0.05506391347099312
+    },
+    "confusions": [
+     [
+      "door",
+      "wall_board"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "window",
+      "window_shutter"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "wine_rack"
+     ],
+     [
+      "chest_of_drawers",
+      "tv"
+     ],
+     [
+      "basket",
+      "laundry_basket"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "shower",
+      "mirror"
+     ],
+     [
+      "toilet",
+      "bathroom_accessory"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "tv",
+      "wall_board"
+     ],
+     [
+      "animal",
+      "wall_lamp"
+     ],
+     [
+      "clock",
+      "potted_plant"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "decoration",
+      "wall_lamp"
+     ],
+     [
+      "box",
+      "table"
+     ],
+     [
+      "hanger",
+      "decoration"
+     ],
+     [
+      "clock",
+      "wall_clock"
+     ],
+     [
+      "window",
+      "window_shutter"
+     ],
+     [
+      "couch",
+      "chair"
+     ],
+     [
+      "gift",
+      "box"
+     ],
+     [
+      "pathway_light",
+      "wall_lamp"
+     ],
+     [
+      "stand",
+      "table"
+     ],
+     [
+      "animal",
+      "bowl"
+     ],
+     [
+      "appliance",
+      "bottle"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "counter",
+      "table"
+     ],
+     [
+      "animal",
+      "counter"
+     ],
+     [
+      "carpet",
+      "throw"
+     ],
+     [
+      "appliance",
+      "bottle"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "picture",
+      "vent"
+     ],
+     [
+      "bed",
+      "throw"
+     ],
+     [
+      "carpet",
+      "stairs"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "trashcan",
+      "toilet"
+     ]
+    ]
+   },
+   "108736689_177263340": {
+    "n_pred": 128,
+    "n_gt": 125,
+    "obj@0.25": {
+     "tp": 33,
+     "n_pred": 93,
+     "n_gt": 125,
+     "p": 0.3548387096774194,
+     "r": 0.264,
+     "f1": 0.30275229357798167,
+     "label_correct": 19,
+     "label_acc": 0.5757575757575758
+    },
+    "obj@0.5": {
+     "tp": 25,
+     "n_pred": 93,
+     "n_gt": 125,
+     "p": 0.26881720430107525,
+     "r": 0.2,
+     "f1": 0.22935779816513763,
+     "label_correct": 15,
+     "label_acc": 0.6
+    },
+    "rel": {
+     "tp": 21,
+     "n_pred": 171,
+     "n_gt": 331,
+     "p": 0.12280701754385964,
+     "r": 0.0634441087613293,
+     "f1": 0.08366533864541832
+    },
+    "confusions": [
+     [
+      "table",
+      "chest_of_drawers"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "cushion",
+      "bag"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "machine",
+      "kettle"
+     ],
+     [
+      "bed",
+      "throw"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "bottle",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "shower",
+      "door"
+     ],
+     [
+      "throw",
+      "cushion"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ]
+    ]
+   },
+   "108736722_177263382": {
+    "n_pred": 235,
+    "n_gt": 152,
+    "obj@0.25": {
+     "tp": 46,
+     "n_pred": 193,
+     "n_gt": 152,
+     "p": 0.23834196891191708,
+     "r": 0.3026315789473684,
+     "f1": 0.2666666666666666,
+     "label_correct": 23,
+     "label_acc": 0.5
+    },
+    "obj@0.5": {
+     "tp": 23,
+     "n_pred": 193,
+     "n_gt": 152,
+     "p": 0.11917098445595854,
+     "r": 0.1513157894736842,
+     "f1": 0.1333333333333333,
+     "label_correct": 11,
+     "label_acc": 0.4782608695652174
+    },
+    "rel": {
+     "tp": 19,
+     "n_pred": 457,
+     "n_gt": 272,
+     "p": 0.04157549234135667,
+     "r": 0.06985294117647059,
+     "f1": 0.05212620027434842
+    },
+    "confusions": [
+     [
+      "window",
+      "curtain"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "couch",
+      "throw"
+     ],
+     [
+      "shopping_bag",
+      "bag"
+     ],
+     [
+      "cabinet",
+      "door"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "board",
+      "wall_board"
+     ],
+     [
+      "board",
+      "wall_board"
+     ],
+     [
+      "stand",
+      "chair"
+     ],
+     [
+      "bench",
+      "ottoman"
+     ],
+     [
+      "picture",
+      "board"
+     ],
+     [
+      "desk_clutter",
+      "box"
+     ],
+     [
+      "machine",
+      "kettle"
+     ],
+     [
+      "throw",
+      "towel"
+     ],
+     [
+      "table",
+      "picture_frame"
+     ],
+     [
+      "toilet_bag",
+      "bag"
+     ],
+     [
+      "toiletry",
+      "jar"
+     ],
+     [
+      "carpet",
+      "towel_rack"
+     ],
+     [
+      "purse",
+      "jewelry_box"
+     ],
+     [
+      "bathtub",
+      "sink"
+     ],
+     [
+      "laundry_basket",
+      "basket"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "toiletry",
+      "bathroom_accessory"
+     ]
+    ]
+   },
+   "108736824_177263559": {
+    "n_pred": 609,
+    "n_gt": 193,
+    "obj@0.25": {
+     "tp": 128,
+     "n_pred": 404,
+     "n_gt": 193,
+     "p": 0.31683168316831684,
+     "r": 0.6632124352331606,
+     "f1": 0.4288107202680067,
+     "label_correct": 51,
+     "label_acc": 0.3984375
+    },
+    "obj@0.5": {
+     "tp": 85,
+     "n_pred": 404,
+     "n_gt": 193,
+     "p": 0.2103960396039604,
+     "r": 0.44041450777202074,
+     "f1": 0.2847571189279732,
+     "label_correct": 34,
+     "label_acc": 0.4
+    },
+    "rel": {
+     "tp": 126,
+     "n_pred": 1203,
+     "n_gt": 361,
+     "p": 0.10473815461346633,
+     "r": 0.3490304709141274,
+     "f1": 0.16112531969309463
+    },
+    "confusions": [
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "clock",
+      "wall_clock"
+     ],
+     [
+      "mobile_phone",
+      "mobile"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "table",
+      "vase"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "tray",
+      "table"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "knife_holder",
+      "counter"
+     ],
+     [
+      "toaster",
+      "counter"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "cushion",
+      "ottoman"
+     ],
+     [
+      "couch",
+      "chair"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "jar",
+      "vase"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "wall_lamp"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "bathtub",
+      "sink"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "trunk",
+      "box"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "screen"
+     ],
+     [
+      "bag",
+      "box"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "cushion",
+      "stool"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "chest_of_drawers",
+      "table"
+     ],
+     [
+      "bathtub",
+      "counter"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "table_lamp",
+      "decoration"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "table_lamp",
+      "decoration"
+     ],
+     [
+      "vase",
+      "chest_of_drawers"
+     ],
+     [
+      "candle",
+      "potted_plant"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "tv",
+      "wall_board"
+     ],
+     [
+      "stand",
+      "media_console"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "potted_plant",
+      "vase"
+     ],
+     [
+      "mirror",
+      "decoration"
+     ],
+     [
+      "picture",
+      "decoration"
+     ],
+     [
+      "candle",
+      "decoration"
+     ],
+     [
+      "potted_plant",
+      "decoration"
+     ],
+     [
+      "flower",
+      "vase"
+     ],
+     [
+      "candle",
+      "canister"
+     ],
+     [
+      "table",
+      "couch"
+     ],
+     [
+      "tray",
+      "counter"
+     ],
+     [
+      "vase",
+      "counter"
+     ],
+     [
+      "washer_dryer",
+      "appliance"
+     ],
+     [
+      "candle",
+      "table"
+     ],
+     [
+      "globe",
+      "decoration"
+     ]
+    ]
+   },
+   "108736851_177263586": {
+    "n_pred": 706,
+    "n_gt": 207,
+    "obj@0.25": {
+     "tp": 138,
+     "n_pred": 494,
+     "n_gt": 207,
+     "p": 0.2793522267206478,
+     "r": 0.6666666666666666,
+     "f1": 0.3937232524964337,
+     "label_correct": 58,
+     "label_acc": 0.42028985507246375
+    },
+    "obj@0.5": {
+     "tp": 90,
+     "n_pred": 494,
+     "n_gt": 207,
+     "p": 0.18218623481781376,
+     "r": 0.43478260869565216,
+     "f1": 0.25677603423680456,
+     "label_correct": 38,
+     "label_acc": 0.4222222222222222
+    },
+    "rel": {
+     "tp": 105,
+     "n_pred": 1545,
+     "n_gt": 308,
+     "p": 0.06796116504854369,
+     "r": 0.3409090909090909,
+     "f1": 0.11332973556395035
+    },
+    "confusions": [
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "hanger",
+      "hall_tree"
+     ],
+     [
+      "fridge",
+      "door"
+     ],
+     [
+      "chair",
+      "table"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "cushion",
+      "ottoman"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "vase",
+      "couch"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "stool",
+      "ottoman"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "vase",
+      "bottle"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "drinkware",
+      "kitchen_utensil"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "tray",
+      "serving_cart"
+     ],
+     [
+      "knife_holder",
+      "counter"
+     ],
+     [
+      "stove",
+      "counter"
+     ],
+     [
+      "breadbin",
+      "counter"
+     ],
+     [
+      "breadbin",
+      "counter"
+     ],
+     [
+      "dishwasher",
+      "stove"
+     ],
+     [
+      "microwave",
+      "counter"
+     ],
+     [
+      "appliance",
+      "towel"
+     ],
+     [
+      "coffee_maker",
+      "counter"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "trunk",
+      "box"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "basket",
+      "shelves"
+     ],
+     [
+      "magazine_rack",
+      "newspaper_basket"
+     ],
+     [
+      "chest",
+      "trunk"
+     ],
+     [
+      "sink",
+      "bathroom_accessory"
+     ],
+     [
+      "toilet",
+      "bathroom_accessory"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest",
+      "bed"
+     ],
+     [
+      "case",
+      "box"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "chest",
+      "trunk"
+     ],
+     [
+      "chest_of_drawers",
+      "bed"
+     ],
+     [
+      "chest_of_drawers",
+      "trunk"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "shower",
+      "door"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "carpet",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "bottle"
+     ],
+     [
+      "hanger",
+      "towel"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "cabinet",
+      "wall_board"
+     ],
+     [
+      "stand",
+      "shelves"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "cabinet",
+      "appliance"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "jar",
+      "basket"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "container",
+      "cabinet"
+     ],
+     [
+      "cushion",
+      "ottoman"
+     ],
+     [
+      "globe",
+      "decoration"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "birdcage",
+      "decoration"
+     ],
+     [
+      "throw",
+      "towel"
+     ],
+     [
+      "bed",
+      "throw"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "sink",
+      "counter"
+     ],
+     [
+      "chair",
+      "cushion"
+     ],
+     [
+      "trashcan",
+      "bathroom_accessory"
+     ],
+     [
+      "chest",
+      "box"
+     ],
+     [
+      "candle",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "bed"
+     ],
+     [
+      "throw",
+      "towel"
+     ],
+     [
+      "chest",
+      "trunk"
+     ],
+     [
+      "shelves",
+      "table"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "basket",
+      "table_lamp"
+     ],
+     [
+      "bed",
+      "wall_board"
+     ],
+     [
+      "table_lamp",
+      "decoration"
+     ]
+    ]
+   }
+  },
+  "pooled": {
+   "obj@0.25": {
+    "tp": 2830,
+    "n_pred": 11177,
+    "n_gt": 6993,
+    "p": 0.25319853270108256,
+    "r": 0.4046904046904047,
+    "f1": 0.31150247660979635,
+    "label_acc": 0.523321554770318
+   },
+   "obj@0.5": {
+    "tp": 1954,
+    "n_pred": 11177,
+    "n_gt": 6993,
+    "p": 0.17482329784378633,
+    "r": 0.27942227942227943,
+    "f1": 0.2150798018712163,
+    "label_acc": 0.5317297850562948
+   },
+   "rel": {
+    "tp": 1826,
+    "n_pred": 28839,
+    "n_gt": 12019,
+    "p": 0.06331703595825099,
+    "r": 0.15192611698144604,
+    "f1": 0.08938274022223311
+   },
+   "mean_scene_f1@0.25": 0.3178130870214393
+  },
+  "n_scenes": 30,
+  "confusion_top10": [
+   {
+    "gt": "picture",
+    "pred": "picture_frame",
+    "n": 78
+   },
+   {
+    "gt": "picture",
+    "pred": "wall_board",
+    "n": 71
+   },
+   {
+    "gt": "chest_of_drawers",
+    "pred": "cabinet",
+    "n": 37
+   },
+   {
+    "gt": "window",
+    "pred": "wall_board",
+    "n": 28
+   },
+   {
+    "gt": "chair",
+    "pred": "couch",
+    "n": 27
+   },
+   {
+    "gt": "counter",
+    "pred": "cabinet",
+    "n": 25
+   },
+   {
+    "gt": "window",
+    "pred": "wall_panel",
+    "n": 24
+   },
+   {
+    "gt": "stool",
+    "pred": "ottoman",
+    "n": 21
+   },
+   {
+    "gt": "mirror",
+    "pred": "wall_board",
+    "n": 18
+   },
+   {
+    "gt": "potted_plant",
+    "pred": "vase",
+    "n": 17
+   }
+  ]
+ },
+ "hssd_dev": {
+  "scenes": {
+   "102816627": {
+    "n_pred": 755,
+    "n_gt": 212,
+    "obj@0.25": {
+     "tp": 100,
+     "n_pred": 323,
+     "n_gt": 212,
+     "p": 0.30959752321981426,
+     "r": 0.4716981132075472,
+     "f1": 0.3738317757009346,
+     "label_correct": 66,
+     "label_acc": 0.66
+    },
+    "obj@0.5": {
+     "tp": 67,
+     "n_pred": 323,
+     "n_gt": 212,
+     "p": 0.20743034055727555,
+     "r": 0.3160377358490566,
+     "f1": 0.2504672897196261,
+     "label_correct": 43,
+     "label_acc": 0.6417910447761194
+    },
+    "rel": {
+     "tp": 77,
+     "n_pred": 628,
+     "n_gt": 394,
+     "p": 0.12261146496815287,
+     "r": 0.19543147208121828,
+     "f1": 0.15068493150684933
+    },
+    "confusions": [
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "throw",
+      "towel"
+     ],
+     [
+      "fridge",
+      "shelves"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "counter"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "chair",
+      "pillar"
+     ],
+     [
+      "throw",
+      "towel"
+     ],
+     [
+      "hanger",
+      "towel"
+     ],
+     [
+      "toilet_paper",
+      "toilet"
+     ],
+     [
+      "button",
+      "light_switch"
+     ],
+     [
+      "heater",
+      "radiator"
+     ],
+     [
+      "chest_of_drawers",
+      "bed"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "tray",
+      "vase"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "button",
+      "wall_board"
+     ],
+     [
+      "shower",
+      "cabinet"
+     ],
+     [
+      "toilet_paper",
+      "stairs"
+     ],
+     [
+      "chest_of_drawers",
+      "towel"
+     ],
+     [
+      "basket",
+      "bucket"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "bench",
+      "table"
+     ],
+     [
+      "vase",
+      "shelves"
+     ],
+     [
+      "book",
+      "wall_board"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "button",
+      "light_switch"
+     ],
+     [
+      "toilet",
+      "wall_board"
+     ],
+     [
+      "toilet_cleaner",
+      "soap_dispenser"
+     ]
+    ]
+   },
+   "104348253_171513237": {
+    "n_pred": 294,
+    "n_gt": 388,
+    "obj@0.25": {
+     "tp": 105,
+     "n_pred": 232,
+     "n_gt": 388,
+     "p": 0.4525862068965517,
+     "r": 0.2706185567010309,
+     "f1": 0.3387096774193548,
+     "label_correct": 34,
+     "label_acc": 0.3238095238095238
+    },
+    "obj@0.5": {
+     "tp": 73,
+     "n_pred": 232,
+     "n_gt": 388,
+     "p": 0.3146551724137931,
+     "r": 0.18814432989690721,
+     "f1": 0.2354838709677419,
+     "label_correct": 22,
+     "label_acc": 0.3013698630136986
+    },
+    "rel": {
+     "tp": 74,
+     "n_pred": 437,
+     "n_gt": 1129,
+     "p": 0.16933638443935928,
+     "r": 0.06554472984942426,
+     "f1": 0.09450830140485311
+    },
+    "confusions": [
+     [
+      "computer",
+      "table"
+     ],
+     [
+      "vase",
+      "potted_plant"
+     ],
+     [
+      "vase",
+      "decoration"
+     ],
+     [
+      "cushion",
+      "potted_plant"
+     ],
+     [
+      "heater",
+      "table"
+     ],
+     [
+      "wall_clock",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "pot"
+     ],
+     [
+      "candle",
+      "pot"
+     ],
+     [
+      "decoration",
+      "table_lamp"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "curtain",
+      "wall_board"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "tablet_computer",
+      "table"
+     ],
+     [
+      "decoration",
+      "fan"
+     ],
+     [
+      "shelves",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "box",
+      "cabinet"
+     ],
+     [
+      "ashtray",
+      "table"
+     ],
+     [
+      "decoration",
+      "vase"
+     ],
+     [
+      "heater",
+      "table"
+     ],
+     [
+      "picture",
+      "couch"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "heater",
+      "vent"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "table",
+      "hall_tree"
+     ],
+     [
+      "board",
+      "wall_board"
+     ],
+     [
+      "heater",
+      "radiator"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "vase",
+      "potted_plant"
+     ],
+     [
+      "table_lamp",
+      "basket"
+     ],
+     [
+      "book",
+      "table"
+     ],
+     [
+      "loudspeaker",
+      "screen"
+     ],
+     [
+      "stool",
+      "chair"
+     ],
+     [
+      "picture",
+      "mirror"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "mobile_phone",
+      "table"
+     ],
+     [
+      "tablet_computer",
+      "screen"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "mobile_phone",
+      "computer"
+     ],
+     [
+      "table",
+      "chair"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "decoration",
+      "ceiling_lamp"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "tablet_computer",
+      "table"
+     ],
+     [
+      "loudspeaker",
+      "screen"
+     ],
+     [
+      "table_lamp",
+      "ceiling_lamp"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "safe",
+      "door"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "trashcan",
+      "trunk"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "plant_art"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "board",
+      "wall_panel"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "heater",
+      "radiator"
+     ],
+     [
+      "ceiling_lamp",
+      "sink"
+     ],
+     [
+      "ceiling_lamp",
+      "wall_board"
+     ],
+     [
+      "ceiling_lamp",
+      "sink"
+     ],
+     [
+      "heater",
+      "radiator"
+     ],
+     [
+      "board",
+      "vent"
+     ]
+    ]
+   },
+   "104348328_171513363": {
+    "n_pred": 329,
+    "n_gt": 181,
+    "obj@0.25": {
+     "tp": 85,
+     "n_pred": 254,
+     "n_gt": 181,
+     "p": 0.3346456692913386,
+     "r": 0.4696132596685083,
+     "f1": 0.39080459770114945,
+     "label_correct": 49,
+     "label_acc": 0.5764705882352941
+    },
+    "obj@0.5": {
+     "tp": 52,
+     "n_pred": 254,
+     "n_gt": 181,
+     "p": 0.2047244094488189,
+     "r": 0.287292817679558,
+     "f1": 0.23908045977011494,
+     "label_correct": 30,
+     "label_acc": 0.5769230769230769
+    },
+    "rel": {
+     "tp": 62,
+     "n_pred": 623,
+     "n_gt": 328,
+     "p": 0.09951845906902086,
+     "r": 0.18902439024390244,
+     "f1": 0.13038906414300735
+    },
+    "confusions": [
+     [
+      "ceiling_lamp",
+      "vent"
+     ],
+     [
+      "ottoman",
+      "chair"
+     ],
+     [
+      "ottoman",
+      "decoration"
+     ],
+     [
+      "table",
+      "pot"
+     ],
+     [
+      "carpet",
+      "decoration"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "sculpture",
+      "decoration"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "bathtub",
+      "bathroom_accessory"
+     ],
+     [
+      "tap",
+      "door"
+     ],
+     [
+      "tissue_box",
+      "candlestick"
+     ],
+     [
+      "cabinet",
+      "wall_board"
+     ],
+     [
+      "table",
+      "wall_board"
+     ],
+     [
+      "rack",
+      "cabinet"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "couch",
+      "cushion"
+     ],
+     [
+      "picture",
+      "wall_panel"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "kettle",
+      "ceiling_lamp"
+     ],
+     [
+      "microwave",
+      "stove"
+     ],
+     [
+      "tv",
+      "wall_board"
+     ],
+     [
+      "table",
+      "table_lamp"
+     ],
+     [
+      "throw",
+      "headboard"
+     ],
+     [
+      "rack",
+      "cabinet"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "basket",
+      "cabinet"
+     ],
+     [
+      "sink",
+      "bathroom_accessory"
+     ],
+     [
+      "table_lamp",
+      "decoration"
+     ],
+     [
+      "cushion",
+      "throw"
+     ],
+     [
+      "potted_plant",
+      "cabinet"
+     ],
+     [
+      "knife_holder",
+      "rack"
+     ],
+     [
+      "table",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "decoration"
+     ],
+     [
+      "potted_plant",
+      "basket"
+     ]
+    ]
+   },
+   "105515211_173104185": {
+    "n_pred": 256,
+    "n_gt": 58,
+    "obj@0.25": {
+     "tp": 33,
+     "n_pred": 154,
+     "n_gt": 58,
+     "p": 0.21428571428571427,
+     "r": 0.5689655172413793,
+     "f1": 0.3113207547169811,
+     "label_correct": 16,
+     "label_acc": 0.48484848484848486
+    },
+    "obj@0.5": {
+     "tp": 24,
+     "n_pred": 154,
+     "n_gt": 58,
+     "p": 0.15584415584415584,
+     "r": 0.41379310344827586,
+     "f1": 0.22641509433962265,
+     "label_correct": 14,
+     "label_acc": 0.5833333333333334
+    },
+    "rel": {
+     "tp": 22,
+     "n_pred": 329,
+     "n_gt": 76,
+     "p": 0.0668693009118541,
+     "r": 0.2894736842105263,
+     "f1": 0.10864197530864196
+    },
+    "confusions": [
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "window",
+      "door"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "window",
+      "wall_board"
+     ],
+     [
+      "shelves",
+      "ladder"
+     ],
+     [
+      "shelves",
+      "wall_panel"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "chair",
+      "couch"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "shelves",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "table",
+      "carpet"
+     ],
+     [
+      "shower",
+      "mirror"
+     ]
+    ]
+   },
+   "108294558_176710095": {
+    "n_pred": 294,
+    "n_gt": 138,
+    "obj@0.25": {
+     "tp": 60,
+     "n_pred": 217,
+     "n_gt": 138,
+     "p": 0.2764976958525346,
+     "r": 0.43478260869565216,
+     "f1": 0.3380281690140845,
+     "label_correct": 30,
+     "label_acc": 0.5
+    },
+    "obj@0.5": {
+     "tp": 36,
+     "n_pred": 217,
+     "n_gt": 138,
+     "p": 0.16589861751152074,
+     "r": 0.2608695652173913,
+     "f1": 0.2028169014084507,
+     "label_correct": 17,
+     "label_acc": 0.4722222222222222
+    },
+    "rel": {
+     "tp": 46,
+     "n_pred": 454,
+     "n_gt": 238,
+     "p": 0.1013215859030837,
+     "r": 0.19327731092436976,
+     "f1": 0.13294797687861273
+    },
+    "confusions": [
+     [
+      "table_lamp",
+      "wall_lamp"
+     ],
+     [
+      "chest_of_drawers",
+      "headboard"
+     ],
+     [
+      "shelves",
+      "chair"
+     ],
+     [
+      "window",
+      "curtain"
+     ],
+     [
+      "cabinet",
+      "shelves"
+     ],
+     [
+      "mirror",
+      "wall_board"
+     ],
+     [
+      "candle",
+      "couch"
+     ],
+     [
+      "carpet",
+      "chair"
+     ],
+     [
+      "bench",
+      "couch"
+     ],
+     [
+      "curtain",
+      "window_shutter"
+     ],
+     [
+      "curtain",
+      "window_shutter"
+     ],
+     [
+      "picture",
+      "picture_frame"
+     ],
+     [
+      "mirror",
+      "counter"
+     ],
+     [
+      "window",
+      "wall_panel"
+     ],
+     [
+      "cabinet",
+      "counter"
+     ],
+     [
+      "carpet",
+      "screen"
+     ],
+     [
+      "laundry_basket",
+      "cabinet"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "curtain",
+      "window_shutter"
+     ],
+     [
+      "laundry_basket",
+      "trashcan"
+     ],
+     [
+      "cabinet",
+      "sink"
+     ],
+     [
+      "trashcan",
+      "counter"
+     ],
+     [
+      "chest_of_drawers",
+      "cabinet"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "picture",
+      "wall_board"
+     ],
+     [
+      "table_lamp",
+      "chair"
+     ],
+     [
+      "table_lamp",
+      "shelves"
+     ],
+     [
+      "wardrobe",
+      "cabinet"
+     ],
+     [
+      "table_lamp",
+      "wall_lamp"
+     ]
+    ]
+   }
+  },
+  "pooled": {
+   "obj@0.25": {
+    "tp": 383,
+    "n_pred": 1180,
+    "n_gt": 977,
+    "p": 0.32457627118644067,
+    "r": 0.39201637666325484,
+    "f1": 0.3551228558182661,
+    "label_acc": 0.5091383812010444
+   },
+   "obj@0.5": {
+    "tp": 252,
+    "n_pred": 1180,
+    "n_gt": 977,
+    "p": 0.2135593220338983,
+    "r": 0.2579324462640737,
+    "f1": 0.23365785813630038,
+    "label_acc": 0.5
+   },
+   "rel": {
+    "tp": 281,
+    "n_pred": 2471,
+    "n_gt": 2165,
+    "p": 0.11371914204775395,
+    "r": 0.12979214780600462,
+    "f1": 0.12122519413287317
+   },
+   "mean_scene_f1@0.25": 0.3505389949105009
+  },
+  "n_scenes": 5
+ },
+ "replica_dev": {
+  "scenes": {},
+  "pooled": null,
+  "confusion_top10": []
+ },
+ "G3_own_eval_check": {
+  "n_scenes": 8,
+  "ours": {
+   "miou": 0.2749565673336415,
+   "macc": 0.401884784138854,
+   "fmiou": 0.6135108190934173
+  },
+  "ovo_reference": {
+   "miou": 0.2749565673336415,
+   "macc": 0.401884784138854,
+   "fmiou": 0.6135108190934173
+  }
+ }
+}

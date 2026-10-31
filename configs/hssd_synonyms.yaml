@@ -1,0 +1,48 @@
+# HSSD canonical vocabulary (task 003 step 1; ruling in DEVIATIONS.md row 7b). Frozen 2026-10-27 before any
+# mapper number. Applies to GT labels, label accuracy and the label-assignment vocabulary (docs/CONTRACT.md 2026-10-27e).
+#
+# Rules (deterministic):
+#  1. A group merges labels that name the same object class: plural / spelling / near-synonym variants, and
+#     subtypes whose generic is itself a vocabulary label (alarm_clock, mantel_clock -> the "clock" group).
+#  2. No group mixes WALL_MOUNTED and non-WALL_MOUNTED labels (spatialmem/gt/relations.py), so relations v2 are
+#     unchanged by canonicalisation (asserted in spatialmem/hssd/vocab.py). Hence wall_lamp, ceiling_lamp,
+#     wall_clock, picture stay their own classes.
+#  3. Canonical name = the group's most frequent member by GT-object count over the 35 frozen scenes
+#     (ties: alphabetical) — computed, not chosen (spatialmem/hssd/vocab.py).
+#  4. Labels in no group are their own canonical name.
+source: "GT objects of the 35 scenes in configs/hssd_scenes.yaml (data/hssd_runs/all/*/gt.json, 286 labels, 7,971 objects)"
+groups:
+  - [shelf, shelves]
+  - [lamp, table_lamp, floor_lamp, lantern]
+  - [clock, alarm_clock, mantel_clock]
+  - [sink, basin, bath_sink, washbasin, hand_wash]
+  - [stove, stovetop]
+  - [plant, potted_plant, flowerpot]
+  - [flower, bouquet]
+  - [carpet, floor_mat]
+  - [blanket, throw, quilt, bedclothes]
+  - [clothes, clothing, hanging_clothes]
+  - [clothes_rack, clothing_rack, clothes_hanger_rod]
+  - [hanger, clothes_hanger, coat_hanger]
+  - [phone, mobile_phone]
+  - [tablet, tablet_computer]
+  - [speaker, loudspeaker]
+  - [trashcan, bin]
+  - [stairs, stairway, staircase]
+  - [fence, fencing]
+  - [railing, balcony_railing, rail]
+  - [cabinet, display_cabinet, sink_cabinet]
+  - [chest_of_drawers, dresser, drawer_unit]
+  - [box, storage_box]
+  - [table, game_table]
+  - [chair, seat]
+  - [sculpture, statue]
+  - [gift, gift_box]
+  - [appliance, kitchen_appliance]
+  - [computer, computer_equipment]
+  - [gym_equipment, exercise_equipment]
+  - [weight, dumbbell]
+  - [drinkware, cup]
+  - [socket, electric_outlet]
+  - [towel_rack, towel_ring]
+  - [swimming_pool, pool]

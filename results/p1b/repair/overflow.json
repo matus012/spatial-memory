@@ -1,0 +1,4560 @@
+{
+ "cg__all": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10024,
+   "tokens_after": 10024
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5398,
+   "tokens_after": 5398
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8092,
+   "tokens_after": 8092
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29411,
+   "tokens_after": 29411
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18457,
+   "tokens_after": 18457
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11747,
+   "tokens_after": 11747
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10897,
+   "tokens_after": 10897
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4384,
+   "tokens_after": 4384
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 15178,
+   "tokens_after": 15178
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5687,
+   "tokens_after": 5687
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7169,
+   "tokens_after": 7169
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11012,
+   "tokens_after": 11012
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13385,
+   "tokens_after": 13385
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9081,
+   "tokens_after": 9081
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14044,
+   "tokens_after": 14044
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11607,
+   "tokens_after": 11607
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5158,
+   "tokens_after": 5158
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9781,
+   "tokens_after": 9781
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22902,
+   "tokens_after": 22902
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14903,
+   "tokens_after": 14903
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11249,
+   "tokens_after": 11249
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9830,
+   "tokens_after": 9830
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16352,
+   "tokens_after": 16352
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4865,
+   "tokens_after": 4865
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6660,
+   "tokens_after": 6660
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7550,
+   "tokens_after": 7550
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7590,
+   "tokens_after": 7590
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7444,
+   "tokens_after": 7444
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9297,
+   "tokens_after": 9297
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8863,
+   "tokens_after": 8863
+  }
+ },
+ "cg__box": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 249,
+   "tokens": 33663,
+   "tokens_after": 29997,
+   "tokens_after_max_all": 29997
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19522,
+   "tokens_after": 19522
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 637,
+   "tokens": 38795,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1261,
+   "tokens": 47743,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1342,
+   "tokens": 49730,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23303,
+   "tokens_after": 23303
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 58,
+   "tokens": 30734,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12715,
+   "tokens_after": 12715
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1336,
+   "tokens": 48490,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29996
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23069,
+   "tokens_after": 23069
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22727,
+   "tokens_after": 22727
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28259,
+   "tokens_after": 28259
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 772,
+   "tokens": 40947,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 590,
+   "tokens": 38123,
+   "tokens_after": 29986,
+   "tokens_after_max_all": 29986
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25287,
+   "tokens_after": 25287
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 65,
+   "tokens": 30900,
+   "tokens_after": 29989,
+   "tokens_after_max_all": 29989
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13928,
+   "tokens_after": 13928
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11709,
+   "tokens_after": 11709
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 488,
+   "tokens": 36620,
+   "tokens_after": 29993,
+   "tokens_after_max_all": 29993
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 874,
+   "tokens": 41197,
+   "tokens_after": 29989,
+   "tokens_after_max_all": 29989
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29053,
+   "tokens_after": 29053
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28212,
+   "tokens_after": 28212
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 519,
+   "tokens": 37909,
+   "tokens_after": 29985,
+   "tokens_after_max_all": 29985
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18830,
+   "tokens_after": 18830
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26222,
+   "tokens_after": 26222
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29088,
+   "tokens_after": 29088
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4283,
+   "tokens_after": 4283
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14351,
+   "tokens_after": 14351
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 426,
+   "tokens": 35757,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 876,
+   "tokens": 42196,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29995
+  }
+ },
+ "cg__extra": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4005,
+   "tokens_after": 4005
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1869,
+   "tokens_after": 1869
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4242,
+   "tokens_after": 4242
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8343,
+   "tokens_after": 8343
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10428,
+   "tokens_after": 10428
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4802,
+   "tokens_after": 4802
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3118,
+   "tokens_after": 3118
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2202,
+   "tokens_after": 2202
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4691,
+   "tokens_after": 4691
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3022,
+   "tokens_after": 3022
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4542,
+   "tokens_after": 4542
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3843,
+   "tokens_after": 3843
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5636,
+   "tokens_after": 5636
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4751,
+   "tokens_after": 4751
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4213,
+   "tokens_after": 4213
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5543,
+   "tokens_after": 5543
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2236,
+   "tokens_after": 2236
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2097,
+   "tokens_after": 2097
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4145,
+   "tokens_after": 4145
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4769,
+   "tokens_after": 4769
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5803,
+   "tokens_after": 5803
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5458,
+   "tokens_after": 5458
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5770,
+   "tokens_after": 5770
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2483,
+   "tokens_after": 2483
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4680,
+   "tokens_after": 4680
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3147,
+   "tokens_after": 3147
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1541,
+   "tokens_after": 1541
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2270,
+   "tokens_after": 2270
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6374,
+   "tokens_after": 6374
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5717,
+   "tokens_after": 5717
+  }
+ },
+ "cg__label": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 239,
+   "tokens": 33517,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19576,
+   "tokens_after": 19576
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 628,
+   "tokens": 38668,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1199,
+   "tokens": 46851,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1345,
+   "tokens": 49636,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22925,
+   "tokens_after": 22925
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 40,
+   "tokens": 30499,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12491,
+   "tokens_after": 12491
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1304,
+   "tokens": 48114,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23442,
+   "tokens_after": 23442
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22607,
+   "tokens_after": 22607
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28633,
+   "tokens_after": 28633
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 742,
+   "tokens": 40540,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 568,
+   "tokens": 37786,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25049,
+   "tokens_after": 25049
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 87,
+   "tokens": 31225,
+   "tokens_after": 29987,
+   "tokens_after_max_all": 29987
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13809,
+   "tokens_after": 13809
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11366,
+   "tokens_after": 11366
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 398,
+   "tokens": 35388,
+   "tokens_after": 29989,
+   "tokens_after_max_all": 29989
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 968,
+   "tokens": 42523,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29994
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28396,
+   "tokens_after": 28396
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28213,
+   "tokens_after": 28213
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 546,
+   "tokens": 38343,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18749,
+   "tokens_after": 18749
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26130,
+   "tokens_after": 26130
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28245,
+   "tokens_after": 28245
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4130,
+   "tokens_after": 4130
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14344,
+   "tokens_after": 14344
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 410,
+   "tokens": 35500,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 902,
+   "tokens": 42548,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29995
+  }
+ },
+ "cg__label+extra": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3987,
+   "tokens_after": 3987
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1870,
+   "tokens_after": 1870
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4196,
+   "tokens_after": 4196
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8390,
+   "tokens_after": 8390
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10347,
+   "tokens_after": 10347
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4757,
+   "tokens_after": 4757
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3053,
+   "tokens_after": 3053
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2190,
+   "tokens_after": 2190
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4708,
+   "tokens_after": 4708
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3103,
+   "tokens_after": 3103
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4491,
+   "tokens_after": 4491
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3819,
+   "tokens_after": 3819
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5642,
+   "tokens_after": 5642
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4725,
+   "tokens_after": 4725
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4222,
+   "tokens_after": 4222
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5511,
+   "tokens_after": 5511
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2215,
+   "tokens_after": 2215
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2039,
+   "tokens_after": 2039
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4176,
+   "tokens_after": 4176
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4865,
+   "tokens_after": 4865
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5793,
+   "tokens_after": 5793
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5468,
+   "tokens_after": 5468
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5838,
+   "tokens_after": 5838
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2496,
+   "tokens_after": 2496
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4674,
+   "tokens_after": 4674
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3047,
+   "tokens_after": 3047
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1524,
+   "tokens_after": 1524
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2280,
+   "tokens_after": 2280
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6282,
+   "tokens_after": 6282
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5718,
+   "tokens_after": 5718
+  }
+ },
+ "cg__label+extra+miss": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9854,
+   "tokens_after": 9854
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5380,
+   "tokens_after": 5380
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7958,
+   "tokens_after": 7958
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29172,
+   "tokens_after": 29172
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18680,
+   "tokens_after": 18680
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11692,
+   "tokens_after": 11692
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11046,
+   "tokens_after": 11046
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4342,
+   "tokens_after": 4342
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 15401,
+   "tokens_after": 15401
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5729,
+   "tokens_after": 5729
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7008,
+   "tokens_after": 7008
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10981,
+   "tokens_after": 10981
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13269,
+   "tokens_after": 13269
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9038,
+   "tokens_after": 9038
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13842,
+   "tokens_after": 13842
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11720,
+   "tokens_after": 11720
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5140,
+   "tokens_after": 5140
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9749,
+   "tokens_after": 9749
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23002,
+   "tokens_after": 23002
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 15161,
+   "tokens_after": 15161
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11296,
+   "tokens_after": 11296
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9669,
+   "tokens_after": 9669
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16614,
+   "tokens_after": 16614
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4844,
+   "tokens_after": 4844
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6563,
+   "tokens_after": 6563
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7266,
+   "tokens_after": 7266
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7459,
+   "tokens_after": 7459
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7529,
+   "tokens_after": 7529
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9214,
+   "tokens_after": 9214
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9184,
+   "tokens_after": 9184
+  }
+ },
+ "cg__miss": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1074,
+   "tokens": 45296,
+   "tokens_after": 29993,
+   "tokens_after_max_all": 29993
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28156,
+   "tokens_after": 28156
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1254,
+   "tokens": 47652,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29994
+  },
+  "102816600": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 3890,
+   "tokens": 85320,
+   "tokens_after": 29993,
+   "tokens_after_max_all": 29993
+  },
+  "102816756": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 2539,
+   "tokens": 67598,
+   "tokens_after": 29987,
+   "tokens_after_max_all": 29987
+  },
+  "102816786": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 371,
+   "tokens": 35090,
+   "tokens_after": 29997,
+   "tokens_after_max_all": 29997
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1197,
+   "tokens": 46760,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17296,
+   "tokens_after": 17296
+  },
+  "104348181_171513120": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 2965,
+   "tokens": 71767,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 4,
+   "tokens": 30063,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28359,
+   "tokens_after": 28359
+  },
+  "105515430_173104494": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 1027,
+   "tokens": 44477,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "105515448_173104512": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 1801,
+   "tokens": 55865,
+   "tokens_after": 29997,
+   "tokens_after_max_all": 29997
+  },
+  "106366104_174226332": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 1241,
+   "tokens": 47368,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29996
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 947,
+   "tokens": 43722,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29994
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 954,
+   "tokens": 43545,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29994
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19018,
+   "tokens_after": 19018
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24394,
+   "tokens_after": 24394
+  },
+  "107734158_175999998": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 2908,
+   "tokens": 70826,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "107734188_176000034": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 2254,
+   "tokens": 60140,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 562,
+   "tokens": 38264,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29998
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 515,
+   "tokens": 36825,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1725,
+   "tokens": 55625,
+   "tokens_after": 29982,
+   "tokens_after_max_all": 29982
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23611,
+   "tokens_after": 23611
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 19,
+   "tokens": 30231,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 616,
+   "tokens": 38975,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12302,
+   "tokens_after": 12302
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23555,
+   "tokens_after": 23555
+  },
+  "108736824_177263559": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 871,
+   "tokens": 41826,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1393,
+   "tokens": 49470,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29997
+  }
+ },
+ "ours_v2__all": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10069,
+   "tokens_after": 10069
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5424,
+   "tokens_after": 5424
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8107,
+   "tokens_after": 8107
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29427,
+   "tokens_after": 29427
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18456,
+   "tokens_after": 18456
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11656,
+   "tokens_after": 11656
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10898,
+   "tokens_after": 10898
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4406,
+   "tokens_after": 4406
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 15195,
+   "tokens_after": 15195
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5702,
+   "tokens_after": 5702
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7199,
+   "tokens_after": 7199
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11024,
+   "tokens_after": 11024
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13420,
+   "tokens_after": 13420
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9073,
+   "tokens_after": 9073
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14068,
+   "tokens_after": 14068
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11592,
+   "tokens_after": 11592
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5148,
+   "tokens_after": 5148
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9844,
+   "tokens_after": 9844
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22894,
+   "tokens_after": 22894
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14902,
+   "tokens_after": 14902
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11233,
+   "tokens_after": 11233
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9829,
+   "tokens_after": 9829
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16350,
+   "tokens_after": 16350
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4846,
+   "tokens_after": 4846
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6672,
+   "tokens_after": 6672
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7514,
+   "tokens_after": 7514
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7639,
+   "tokens_after": 7639
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7478,
+   "tokens_after": 7478
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9284,
+   "tokens_after": 9284
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8886,
+   "tokens_after": 8886
+  }
+ },
+ "ours_v2__box": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19510,
+   "tokens_after": 19510
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12542,
+   "tokens_after": 12542
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28416,
+   "tokens_after": 28416
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 186,
+   "tokens": 32587,
+   "tokens_after": 29988,
+   "tokens_after_max_all": 29988
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 254,
+   "tokens": 33468,
+   "tokens_after": 29993,
+   "tokens_after_max_all": 29993
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20886,
+   "tokens_after": 20886
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19282,
+   "tokens_after": 19282
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9412,
+   "tokens_after": 9412
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 509,
+   "tokens": 37194,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17240,
+   "tokens_after": 17240
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18501,
+   "tokens_after": 18501
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20648,
+   "tokens_after": 20648
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29274,
+   "tokens_after": 29274
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26382,
+   "tokens_after": 26382
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17960,
+   "tokens_after": 17960
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20646,
+   "tokens_after": 20646
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10205,
+   "tokens_after": 10205
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9794,
+   "tokens_after": 9794
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29589,
+   "tokens_after": 29589
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28400,
+   "tokens_after": 28400
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21804,
+   "tokens_after": 21804
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22987,
+   "tokens_after": 22987
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24646,
+   "tokens_after": 24646
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12292,
+   "tokens_after": 12292
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18074,
+   "tokens_after": 18074
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20814,
+   "tokens_after": 20814
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3749,
+   "tokens_after": 3749
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12317,
+   "tokens_after": 12317
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28157,
+   "tokens_after": 28157
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29434,
+   "tokens_after": 29434
+  }
+ },
+ "ours_v2__extra": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3578,
+   "tokens_after": 3578
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1498,
+   "tokens_after": 1498
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3583,
+   "tokens_after": 3583
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6448,
+   "tokens_after": 6448
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8264,
+   "tokens_after": 8264
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4428,
+   "tokens_after": 4428
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3226,
+   "tokens_after": 3226
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2049,
+   "tokens_after": 2049
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3844,
+   "tokens_after": 3844
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2606,
+   "tokens_after": 2606
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3443,
+   "tokens_after": 3443
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3495,
+   "tokens_after": 3495
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4246,
+   "tokens_after": 4246
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3864,
+   "tokens_after": 3864
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3534,
+   "tokens_after": 3534
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4415,
+   "tokens_after": 4415
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1713,
+   "tokens_after": 1713
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2039,
+   "tokens_after": 2039
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3429,
+   "tokens_after": 3429
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3602,
+   "tokens_after": 3602
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4549,
+   "tokens_after": 4549
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4521,
+   "tokens_after": 4521
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4602,
+   "tokens_after": 4602
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2055,
+   "tokens_after": 2055
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3375,
+   "tokens_after": 3375
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2938,
+   "tokens_after": 2938
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1436,
+   "tokens_after": 1436
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1883,
+   "tokens_after": 1883
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5330,
+   "tokens_after": 5330
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4644,
+   "tokens_after": 4644
+  }
+ },
+ "ours_v2__label": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19600,
+   "tokens_after": 19600
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12567,
+   "tokens_after": 12567
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28244,
+   "tokens_after": 28244
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 153,
+   "tokens": 32121,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29994
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 252,
+   "tokens": 33414,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20361,
+   "tokens_after": 20361
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19037,
+   "tokens_after": 19037
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9343,
+   "tokens_after": 9343
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 495,
+   "tokens": 37007,
+   "tokens_after": 29988,
+   "tokens_after_max_all": 29988
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17455,
+   "tokens_after": 17455
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18235,
+   "tokens_after": 18235
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20601,
+   "tokens_after": 20601
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28694,
+   "tokens_after": 28694
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26342,
+   "tokens_after": 26342
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17870,
+   "tokens_after": 17870
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20874,
+   "tokens_after": 20874
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10070,
+   "tokens_after": 10070
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9584,
+   "tokens_after": 9584
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28608,
+   "tokens_after": 28608
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28371,
+   "tokens_after": 28371
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21226,
+   "tokens_after": 21226
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23008,
+   "tokens_after": 23008
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24933,
+   "tokens_after": 24933
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12044,
+   "tokens_after": 12044
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18065,
+   "tokens_after": 18065
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20138,
+   "tokens_after": 20138
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3708,
+   "tokens_after": 3708
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12506,
+   "tokens_after": 12506
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 27659,
+   "tokens_after": 27659
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29176,
+   "tokens_after": 29176
+  }
+ },
+ "ours_v2__label+extra": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3601,
+   "tokens_after": 3601
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1515,
+   "tokens_after": 1515
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3573,
+   "tokens_after": 3573
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6425,
+   "tokens_after": 6425
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8149,
+   "tokens_after": 8149
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4352,
+   "tokens_after": 4352
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3189,
+   "tokens_after": 3189
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2073,
+   "tokens_after": 2073
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3839,
+   "tokens_after": 3839
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2668,
+   "tokens_after": 2668
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3420,
+   "tokens_after": 3420
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3483,
+   "tokens_after": 3483
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4234,
+   "tokens_after": 4234
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3866,
+   "tokens_after": 3866
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3569,
+   "tokens_after": 3569
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4305,
+   "tokens_after": 4305
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1716,
+   "tokens_after": 1716
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1982,
+   "tokens_after": 1982
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3421,
+   "tokens_after": 3421
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3680,
+   "tokens_after": 3680
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4504,
+   "tokens_after": 4504
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4516,
+   "tokens_after": 4516
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4663,
+   "tokens_after": 4663
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2041,
+   "tokens_after": 2041
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3357,
+   "tokens_after": 3357
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2884,
+   "tokens_after": 2884
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1405,
+   "tokens_after": 1405
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1887,
+   "tokens_after": 1887
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5370,
+   "tokens_after": 5370
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4636,
+   "tokens_after": 4636
+  }
+ },
+ "ours_v2__label+extra+miss": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10027,
+   "tokens_after": 10027
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5650,
+   "tokens_after": 5650
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8008,
+   "tokens_after": 8008
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28991,
+   "tokens_after": 28991
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18690,
+   "tokens_after": 18690
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11720,
+   "tokens_after": 11720
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10770,
+   "tokens_after": 10770
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4269,
+   "tokens_after": 4269
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 15203,
+   "tokens_after": 15203
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5672,
+   "tokens_after": 5672
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6892,
+   "tokens_after": 6892
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10746,
+   "tokens_after": 10746
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13134,
+   "tokens_after": 13134
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8969,
+   "tokens_after": 8969
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13846,
+   "tokens_after": 13846
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11982,
+   "tokens_after": 11982
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4938,
+   "tokens_after": 4938
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9902,
+   "tokens_after": 9902
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22249,
+   "tokens_after": 22249
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14997,
+   "tokens_after": 14997
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11372,
+   "tokens_after": 11372
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9918,
+   "tokens_after": 9918
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16390,
+   "tokens_after": 16390
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4767,
+   "tokens_after": 4767
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6788,
+   "tokens_after": 6788
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7306,
+   "tokens_after": 7306
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7654,
+   "tokens_after": 7654
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7583,
+   "tokens_after": 7583
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9088,
+   "tokens_after": 9088
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8874,
+   "tokens_after": 8874
+  }
+ },
+ "ours_v2__miss": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 61,
+   "tokens": 30739,
+   "tokens_after": 29984,
+   "tokens_after_max_all": 29984
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21379,
+   "tokens_after": 21379
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 529,
+   "tokens": 37381,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "102816600": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 2878,
+   "tokens": 71440,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1647,
+   "tokens": 53933,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "102816786": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 327,
+   "tokens": 34726,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 222,
+   "tokens": 33089,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13565,
+   "tokens_after": 13565
+  },
+  "104348181_171513120": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 2151,
+   "tokens": 60977,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24134,
+   "tokens_after": 24134
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25428,
+   "tokens_after": 25428
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 336,
+   "tokens": 34556,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "105515448_173104512": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 1215,
+   "tokens": 47089,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 532,
+   "tokens": 37246,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29996
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 462,
+   "tokens": 36298,
+   "tokens_after": 29985,
+   "tokens_after_max_all": 29985
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 327,
+   "tokens": 34507,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29990
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16305,
+   "tokens_after": 16305
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21611,
+   "tokens_after": 21611
+  },
+  "107734158_175999998": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 2454,
+   "tokens": 64456,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1253,
+   "tokens": 47583,
+   "tokens_after": 29988,
+   "tokens_after_max_all": 29988
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 275,
+   "tokens": 33743,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29996
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 286,
+   "tokens": 33743,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 923,
+   "tokens": 43142,
+   "tokens_after": 29997,
+   "tokens_after_max_all": 29997
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17077,
+   "tokens_after": 17077
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25338,
+   "tokens_after": 25338
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29557,
+   "tokens_after": 29557
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12211,
+   "tokens_after": 12211
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22915,
+   "tokens_after": 22915
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 361,
+   "tokens": 35193,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29996
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 613,
+   "tokens": 38609,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29991
+  }
+ },
+ "ovo__all": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10098,
+   "tokens_after": 10098
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5452,
+   "tokens_after": 5452
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8114,
+   "tokens_after": 8114
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 25,
+   "tokens": 30329,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18592,
+   "tokens_after": 18592
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11797,
+   "tokens_after": 11797
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10927,
+   "tokens_after": 10927
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4469,
+   "tokens_after": 4469
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16041,
+   "tokens_after": 16041
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5733,
+   "tokens_after": 5733
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7251,
+   "tokens_after": 7251
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11129,
+   "tokens_after": 11129
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13462,
+   "tokens_after": 13462
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9095,
+   "tokens_after": 9095
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14161,
+   "tokens_after": 14161
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11693,
+   "tokens_after": 11693
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5192,
+   "tokens_after": 5192
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9917,
+   "tokens_after": 9917
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24634,
+   "tokens_after": 24634
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14934,
+   "tokens_after": 14934
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11313,
+   "tokens_after": 11313
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9896,
+   "tokens_after": 9896
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16719,
+   "tokens_after": 16719
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4888,
+   "tokens_after": 4888
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6769,
+   "tokens_after": 6769
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7591,
+   "tokens_after": 7591
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7719,
+   "tokens_after": 7719
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7488,
+   "tokens_after": 7488
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9440,
+   "tokens_after": 9440
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8921,
+   "tokens_after": 8921
+  }
+ },
+ "ovo__box": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25590,
+   "tokens_after": 25590
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14478,
+   "tokens_after": 14478
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26050,
+   "tokens_after": 26050
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 5,
+   "tokens": 30054,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1051,
+   "tokens": 45234,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26600,
+   "tokens_after": 26600
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17319,
+   "tokens_after": 17319
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9414,
+   "tokens_after": 9414
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 614,
+   "tokens": 38980,
+   "tokens_after": 29993,
+   "tokens_after_max_all": 29993
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17540,
+   "tokens_after": 17540
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12667,
+   "tokens_after": 12667
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24572,
+   "tokens_after": 24572
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28004,
+   "tokens_after": 28004
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 22233,
+   "tokens_after": 22233
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19034,
+   "tokens_after": 19034
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16458,
+   "tokens_after": 16458
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11732,
+   "tokens_after": 11732
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14772,
+   "tokens_after": 14772
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 865,
+   "tokens": 41986,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21716,
+   "tokens_after": 21716
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18587,
+   "tokens_after": 18587
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18394,
+   "tokens_after": 18394
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28428,
+   "tokens_after": 28428
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12638,
+   "tokens_after": 12638
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21153,
+   "tokens_after": 21153
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17793,
+   "tokens_after": 17793
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4347,
+   "tokens_after": 4347
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10473,
+   "tokens_after": 10473
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26307,
+   "tokens_after": 26307
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 147,
+   "tokens": 32027,
+   "tokens_after": 29996,
+   "tokens_after_max_all": 29997
+  }
+ },
+ "ovo__extra": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2856,
+   "tokens_after": 2856
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1623,
+   "tokens_after": 1623
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3685,
+   "tokens_after": 3685
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5120,
+   "tokens_after": 5120
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8203,
+   "tokens_after": 8203
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3897,
+   "tokens_after": 3897
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2645,
+   "tokens_after": 2645
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1568,
+   "tokens_after": 1568
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3285,
+   "tokens_after": 3285
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2886,
+   "tokens_after": 2886
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2815,
+   "tokens_after": 2815
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3914,
+   "tokens_after": 3914
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3908,
+   "tokens_after": 3908
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3644,
+   "tokens_after": 3644
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2745,
+   "tokens_after": 2745
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3606,
+   "tokens_after": 3606
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1465,
+   "tokens_after": 1465
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2027,
+   "tokens_after": 2027
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4000,
+   "tokens_after": 4000
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3124,
+   "tokens_after": 3124
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4094,
+   "tokens_after": 4094
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3800,
+   "tokens_after": 3800
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3919,
+   "tokens_after": 3919
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1780,
+   "tokens_after": 1780
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3553,
+   "tokens_after": 3553
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2361,
+   "tokens_after": 2361
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1132,
+   "tokens_after": 1132
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1497,
+   "tokens_after": 1497
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5116,
+   "tokens_after": 5116
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5092,
+   "tokens_after": 5092
+  }
+ },
+ "ovo__label": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25198,
+   "tokens_after": 25198
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14898,
+   "tokens_after": 14898
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 25935,
+   "tokens_after": 25935
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29307,
+   "tokens_after": 29307
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 1063,
+   "tokens": 45348,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26409,
+   "tokens_after": 26409
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17292,
+   "tokens_after": 17292
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9348,
+   "tokens_after": 9348
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 596,
+   "tokens": 38711,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17215,
+   "tokens_after": 17215
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12953,
+   "tokens_after": 12953
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24623,
+   "tokens_after": 24623
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 27851,
+   "tokens_after": 27851
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21742,
+   "tokens_after": 21742
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19184,
+   "tokens_after": 19184
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16238,
+   "tokens_after": 16238
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11752,
+   "tokens_after": 11752
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14773,
+   "tokens_after": 14773
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 801,
+   "tokens": 41103,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21759,
+   "tokens_after": 21759
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18648,
+   "tokens_after": 18648
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17939,
+   "tokens_after": 17939
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28205,
+   "tokens_after": 28205
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12725,
+   "tokens_after": 12725
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20833,
+   "tokens_after": 20833
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 17454,
+   "tokens_after": 17454
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4172,
+   "tokens_after": 4172
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10336,
+   "tokens_after": 10336
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 26147,
+   "tokens_after": 26147
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 147,
+   "tokens": 32035,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 30000
+  }
+ },
+ "ovo__label+extra": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2868,
+   "tokens_after": 2868
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1628,
+   "tokens_after": 1628
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3697,
+   "tokens_after": 3697
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5114,
+   "tokens_after": 5114
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8143,
+   "tokens_after": 8143
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3852,
+   "tokens_after": 3852
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2695,
+   "tokens_after": 2695
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1581,
+   "tokens_after": 1581
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3259,
+   "tokens_after": 3259
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2908,
+   "tokens_after": 2908
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2770,
+   "tokens_after": 2770
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3892,
+   "tokens_after": 3892
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3941,
+   "tokens_after": 3941
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3642,
+   "tokens_after": 3642
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2786,
+   "tokens_after": 2786
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3581,
+   "tokens_after": 3581
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1465,
+   "tokens_after": 1465
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2017,
+   "tokens_after": 2017
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4009,
+   "tokens_after": 4009
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3138,
+   "tokens_after": 3138
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4116,
+   "tokens_after": 4116
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3779,
+   "tokens_after": 3779
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3899,
+   "tokens_after": 3899
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1798,
+   "tokens_after": 1798
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 3559,
+   "tokens_after": 3559
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 2337,
+   "tokens_after": 2337
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1125,
+   "tokens_after": 1125
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 1499,
+   "tokens_after": 1499
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5150,
+   "tokens_after": 5150
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5088,
+   "tokens_after": 5088
+  }
+ },
+ "ovo__label+extra+miss": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9932,
+   "tokens_after": 9932
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5709,
+   "tokens_after": 5709
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 8244,
+   "tokens_after": 8244
+  },
+  "102816600": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 29754,
+   "tokens_after": 29754
+  },
+  "102816756": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18917,
+   "tokens_after": 18917
+  },
+  "102816786": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11726,
+   "tokens_after": 11726
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10611,
+   "tokens_after": 10611
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4337,
+   "tokens_after": 4337
+  },
+  "104348181_171513120": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16161,
+   "tokens_after": 16161
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5723,
+   "tokens_after": 5723
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7390,
+   "tokens_after": 7390
+  },
+  "105515430_173104494": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 10976,
+   "tokens_after": 10976
+  },
+  "105515448_173104512": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 13333,
+   "tokens_after": 13333
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9027,
+   "tokens_after": 9027
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14084,
+   "tokens_after": 14084
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11631,
+   "tokens_after": 11631
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 5197,
+   "tokens_after": 5197
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9886,
+   "tokens_after": 9886
+  },
+  "107734158_175999998": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 24689,
+   "tokens_after": 24689
+  },
+  "107734188_176000034": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 15005,
+   "tokens_after": 15005
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 11391,
+   "tokens_after": 11391
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9839,
+   "tokens_after": 9839
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 16626,
+   "tokens_after": 16626
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 4772,
+   "tokens_after": 4772
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 6769,
+   "tokens_after": 6769
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7408,
+   "tokens_after": 7408
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7545,
+   "tokens_after": 7545
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 7410,
+   "tokens_after": 7410
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9286,
+   "tokens_after": 9286
+  },
+  "108736851_177263586": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 9034,
+   "tokens_after": 9034
+  }
+ },
+ "ovo__miss": {
+  "102344457": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 649,
+   "tokens": 39044,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "102815859": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23827,
+   "tokens_after": 23827
+  },
+  "102816066": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 411,
+   "tokens": 35779,
+   "tokens_after": 29988,
+   "tokens_after_max_all": 29988
+  },
+  "102816600": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 2747,
+   "tokens": 70616,
+   "tokens_after": 29991,
+   "tokens_after_max_all": 29991
+  },
+  "102816756": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 2473,
+   "tokens": 66769,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "102816786": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 853,
+   "tokens": 42203,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "103997541_171030615": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 29,
+   "tokens": 30387,
+   "tokens_after": 29989,
+   "tokens_after_max_all": 29989
+  },
+  "104348133_171513054": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 14737,
+   "tokens_after": 14737
+  },
+  "104348181_171513120": {
+   "hit_find": 2,
+   "hit_rel": 1,
+   "removed": 2400,
+   "tokens": 66009,
+   "tokens_after": 29998,
+   "tokens_after_max_all": 29998
+  },
+  "104862621_172226772": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 23321,
+   "tokens_after": 23321
+  },
+  "104862660_172226844": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 21175,
+   "tokens_after": 21175
+  },
+  "105515430_173104494": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 583,
+   "tokens": 38277,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "105515448_173104512": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 1120,
+   "tokens": 45739,
+   "tokens_after": 29994,
+   "tokens_after_max_all": 29994
+  },
+  "106366104_174226332": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 92,
+   "tokens": 31226,
+   "tokens_after": 29989,
+   "tokens_after_max_all": 29989
+  },
+  "106366410_174226806": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 583,
+   "tokens": 38536,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29995
+  },
+  "106878960_174887073": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28682,
+   "tokens_after": 28682
+  },
+  "106879005_174887124": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 18948,
+   "tokens_after": 18948
+  },
+  "107733912_175999623": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28611,
+   "tokens_after": 28611
+  },
+  "107734158_175999998": {
+   "fallback": 1,
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 3327,
+   "removed_in": 0,
+   "removed_next_to": 3327,
+   "removed_on": 0,
+   "tokens": 80669,
+   "tokens_after": 31090,
+   "tokens_after_max_all": 31090
+  },
+  "107734188_176000034": {
+   "hit_find": 1,
+   "hit_rel": 0,
+   "removed": 807,
+   "tokens": 41593,
+   "tokens_after": 30000,
+   "tokens_after_max_all": 30000
+  },
+  "107734227_176000091": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 88,
+   "tokens": 31210,
+   "tokens_after": 29995,
+   "tokens_after_max_all": 29997
+  },
+  "107734287_176000160": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28763,
+   "tokens_after": 28763
+  },
+  "108294537_176710050": {
+   "hit_find": 0,
+   "hit_rel": 1,
+   "removed": 1235,
+   "tokens": 48417,
+   "tokens_after": 29999,
+   "tokens_after_max_all": 29999
+  },
+  "108294765_176710386": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 19254,
+   "tokens_after": 19254
+  },
+  "108736635_177263256": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 27022,
+   "tokens_after": 27022
+  },
+  "108736656_177263304": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 28096,
+   "tokens_after": 28096
+  },
+  "108736689_177263340": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 12952,
+   "tokens_after": 12952
+  },
+  "108736722_177263382": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 0,
+   "tokens": 20581,
+   "tokens_after": 20581
+  },
+  "108736824_177263559": {
+   "hit_find": 0,
+   "hit_rel": 0,
+   "removed": 307,
+   "tokens": 34437,
+   "tokens_after": 29992,
+   "tokens_after_max_all": 29992
+  },
+  "108736851_177263586": {
+   "hit_find": 1,
+   "hit_rel": 1,
+   "removed": 780,
+   "tokens": 41031,
+   "tokens_after": 29990,
+   "tokens_after_max_all": 29991
+  }
+ }
+}

@@ -1,0 +1,110 @@
+evaluating 8 scans...
+scans processed: 1scans processed: 2scans processed: 3scans processed: 4scans processed: 5scans processed: 6scans processed: 7scans processed: 8Scene: office0
+mIoU: 	 25.93%; mAcc: 	 33.83%
+ 
+f-mIoU: 	 47.38%; f-mAcc: 	 59.08%
+
+Scene: office1
+mIoU: 	 17.11%; mAcc: 	 30.12%
+ 
+f-mIoU: 	 14.97%; f-mAcc: 	 31.77%
+
+Scene: office2
+mIoU: 	 26.24%; mAcc: 	 31.66%
+ 
+f-mIoU: 	 69.04%; f-mAcc: 	 81.41%
+
+Scene: office3
+mIoU: 	 26.02%; mAcc: 	 32.36%
+ 
+f-mIoU: 	 66.25%; f-mAcc: 	 78.33%
+
+Scene: office4
+mIoU: 	 48.22%; mAcc: 	 59.90%
+ 
+f-mIoU: 	 81.15%; f-mAcc: 	 88.98%
+
+Scene: room0
+mIoU: 	 31.69%; mAcc: 	 39.26%
+ 
+f-mIoU: 	 62.75%; f-mAcc: 	 75.77%
+
+Scene: room1
+mIoU: 	 39.08%; mAcc: 	 55.50%
+ 
+f-mIoU: 	 67.92%; f-mAcc: 	 79.34%
+
+Scene: room2
+mIoU: 	 25.13%; mAcc: 	 33.36%
+ 
+f-mIoU: 	 61.67%; f-mAcc: 	 73.71%
+
+
+ classes 	 IoU 	 Acc
+----------------------------
+wall          : 74.98%   85.69%
+ceiling       : 76.75%   89.51%
+floor         : 62.17%   93.57%
+chair         : 65.63%   74.76%
+blinds        : 61.22%   67.50%
+sofa          : 53.06%   56.25%
+table         : 62.34%   74.94%
+rug           : 0.00%    0.00%
+window        : 44.57%   56.30%
+lamp          : 13.48%   13.71%
+door          : 51.69%   70.22%
+pillow        : 25.44%   88.23%
+bench         : 78.60%   81.61%
+tv-screen     : 27.33%   64.97%
+cabinet       : 52.33%   78.22%
+pillar        : 0.00%    0.00%
+blanket       : 15.61%   29.06%
+tv-stand      : 0.00%    0.00%
+cushion       : 26.59%   61.15%
+bin           : 72.39%   90.92%
+vent          : 0.00%    0.00%
+bed           : 41.58%   74.21%
+stool         : 69.78%   69.88%
+picture       : 89.63%   90.88%
+indoor-plant  : 35.92%   37.42%
+desk          : 0.00%    0.00%
+comforter     : 0.00%    0.00%
+nightstand    : 38.75%   39.66%
+shelf         : 10.71%   51.55%
+vase          : 18.85%   73.73%
+plant-stand   : 0.00%    0.00%
+basket        : 15.87%   26.74%
+plate         : 0.00%    0.00%
+monitor       : 12.92%   99.38%
+pipe          : 0.00%    0.00%
+panel         : 1.67%    4.22%
+desk-organizer: 0.00%    0.00%
+wall-plug     : 8.85%   11.16%
+book          : 21.22%   21.94%
+box           : 0.00%    0.00%
+clock         : 60.72%   60.83%
+sculpture     : 0.00%    0.00%
+tissue-paper  : 42.19%   47.77%
+camera        : 0.00%    0.00%
+tablet        : 0.00%    0.00%
+pot           : 0.00%    0.00%
+bottle        : 30.56%   36.89%
+candle        : 0.00%    0.00%
+bowl          : 0.00%    0.00%
+cloth         : 16.45%   93.96%
+switch        : 22.42%   32.81%
+
+mIoU: 	 27.50%; mAcc: 	 40.20%
+ 
+f-mIoU: 	 61.40%; f-mAcc: 	 74.90%
+
+
+head: 	 45.00%
+head: 	 60.30%
+---
+comm: 	 25.50%
+comm: 	 42.10%
+---
+tail: 	 12.00%
+tail: 	 18.20%
+---

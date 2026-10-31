@@ -1,0 +1,30 @@
+# "ours" v2 mapper (task 006): configs/ours_v1.yaml (frozen, commit c4af463) + the v2 knobs `encoder`, `label`.
+# Run: uv run python -m spatialmem.ours.v2 --config configs/ours_v2.yaml ... (spatialmem/ours/v2.py).
+# FROZEN 2026-10-29 04:09 (CET), task 006 step 4: winner of 11 configs by the pre-registered rule (configs/ours_v2_objective.md,
+# ca4fd41 + 0231249): ours_v2_r2_cliph_crop_vote_t55, Replica-dev pooled mIoU 11.82 (tie set <= 0.3 of best 11.94), HSSD dev label acc 0.454; tuning record selection.json (not published). Frozen before any v2 Replica-8 run.
+# Search space: encoder {siglip2_so400m, clip_vith14_laion2b} (siglip2_base = v1), descriptor {blend, crop},
+# label {mean, vote}, tau {0.45, 0.55}.
+encoder: clip_vith14_laion2b # FROZEN 006. v2 knob; registry spatialmem/ours/encoders.py (siglip2_base = v1's encoder)
+label: vote                 # FROZEN 006. v2 knob; mean = v1 (argmax mean top-k descriptor), vote = per-view majority, tie -> mean
+stride: 5
+min_mask_frac: 0.002        # drop SAM masks < 0.2 % of the image
+points_per_batch: 64        # SAM2AutomaticMaskGenerator prompt batch (VRAM knob; other AMG params = Meta defaults)
+voxel: 0.01                 # m, downsample of detection and object points
+dbscan_eps: 0.1             # m (ConceptGraphs default)
+dbscan_min_points: 10       # (ConceptGraphs default)
+descriptor: crop           # FROZEN 006 (= v1 c11). blend = mask-weighted blend of masked crop + crop; crop = padded crop only
+crop_pad_px: 20             # padded box around the mask for the SigLIP crop (ConceptGraphs default)
+bbox_margin: 0.05           # m, candidate AABB enlargement
+geo_radius: 0.025           # m, point-to-object distance counted as overlap
+lam: 0.5                    # score = lam * geo + (1 - lam) * cos
+tau: 0.55                   # FROZEN 006 (v1 c11 0.45; Design 0.55). merge detection into best candidate if score >= tau
+tau_g: 0.5                  # merge pass: geo >= tau_g
+tau_c: 0.7                  # FROZEN 004 c11 (Design 0.8). merge pass: cos >= tau_c
+merge_use_cos: true         # false = merge pass geometry only (tau_c ignored); the lam = 1 ablation
+merge_every: 50             # processed frames between merge passes (+ one at the end)
+top_k: 5                    # descriptor = mean of the top-k views by mask area
+min_detections: 2           # drop objects seen fewer times
+seed: 114
+sam_cfg: configs/sam2.1/sam2.1_hiera_s.yaml
+sam_ckpt: data/models/sam2.1_hiera_small.pt
+siglip: data/models/siglip2-base-patch16-224   # v1 detection cache (phase A descriptors; part of the cache key), not the v2 encoder

@@ -1,0 +1,76 @@
+# Python / ML .gitignore; this project's dataset paths are below.
+
+# --- model weights and checkpoints -------------------------------------------
+# Never committed. A weight blob in history costs a full history rewrite.
+# Weights are fetched at runtime and cached outside the repo (TORCH_HOME / HF_HOME).
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+weights/
+checkpoints/
+
+# --- data --------------------------------------------------------------------
+# Extend per project. Imagery, frames, crops and video never enter git.
+data/*
+!data/MANIFEST.md
+!data/MANIFEST_hssd.sha256
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+*.png
+*.jpg
+
+# --- environment --------------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# --- derived -------------------------------------------------------------------
+.cache/
+*.npy
+*.npz
+
+# --- Claude Code decoy binds ---------------------------------------------------
+# Claude Code binds these paths to /dev/null as character devices at session
+# start, so `git add -A` errors on them ("can only add regular files"). They are
+# not project files and must never be committed. (Unrelated to the retired
+# sandbox — this is Claude Code's own behaviour and still current.)
+.bash_profile
+.bashrc
+.gitconfig
+.github
+.idea
+.mcp.json
+.profile
+.ripgreprc
+.vscode
+.zprofile
+.zshrc
+.env*
+.npmrc
+.yarnrc
+node_modules/
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bunfig.toml
+
+# --- 114 ---
+reports/figs/*.png
+!reports/figs/001_*.png
+!reports/figs/002_*.png
+!reports/figs/003_*.png
+!reports/figs/004_*.png
+!reports/figs/006_*.png
+!reports/figs/007_*.png
+!reports/figs/009_*.png
+!reports/figs/010_*.png
+!reports/figs/011_*.png
+gt/*.json
+!media/114_demo.mp4

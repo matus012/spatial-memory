@@ -1,0 +1,39 @@
+# P1b v1 — frozen inputs of task 008 (docs/P1B_PROTOCOL.md v1.1). Committed before any planner number.
+# The JSONL files live in data/p1b/ (git-ignored, derived from HSSD) and regenerate byte-identically:
+#   uv run python -m spatialmem.p1b.questions
+#   MSYS_NO_PATHCONV=1 uv run python -m spatialmem.p1b.prompt --row <row> --stream-root ${PROJECT_DIR}/runs/hssd --out data/p1b/prompts_<row>.jsonl
+protocol: docs/P1B_PROTOCOL.md v1.1
+code: spatialmem/p1b @ 6eb2c90
+questions:
+  file: data/p1b/questions_v1.jsonl
+  sha256: d0d9ee72e031820ea66120d430efc22dd1cf8f9e4cc1db542b385d892cfca11f
+  n: 479   # existence 120, relation 119, counting 120, find 120; per house 15-16; seed 114
+prompts:
+  gt7b:  {file: data/p1b/prompts_gt7b.jsonl,  n: 479, sha256: 299bbb3a7c3bb535d32cfdd1fd81a42c8c5bf381aa9d467aa2d311c681b7fed1}
+  img7b: {file: data/p1b/prompts_img7b.jsonl, n: 359, sha256: f0d016d180ec008f9c61b780b14885fad5847cc3e8004379ae864ca60a9816a9}
+  gt72b: {file: data/p1b/prompts_gt72b.jsonl, n: 479, sha256: 5cec56e2ed0e5ba8322c6b65b22b5871f9ee4467e708fd9e0962a8635af4e8e1}
+models:
+  gt7b:  Qwen/Qwen2.5-VL-7B-Instruct    # Apache-2.0
+  img7b: Qwen/Qwen2.5-VL-7B-Instruct
+  gt72b: Qwen/Qwen2.5-VL-72B-Instruct   # Qwen licence (research use; terms in THIRD_PARTY.md)
+sampling: {temperature: 0, max_tokens: 32, seed: 114}
+max_model_len: 32768
+gates:
+  G4_ceiling_overall: 0.70    # gt7b overall accuracy
+  type_drop_gt72b: 0.40       # a type below this on gt72b leaves the headline
+dated_additions:   # append only
+- 2026-10-29 08:40 (CET), before any planner number — run environment (from the 008 PERUN smoke on dummy inputs):
+  image: vllm.sif from vllm/vllm-openai:v0.10.1.1 (sha256 c35531a7be41c95ba01477461780cb435679df6fc150bd3997d8629e63aa2611; vllm 0.10.1.1, torch 2.7.1+cu128, transformers 4.55.2)
+  revisions: {Qwen2.5-VL-7B-Instruct: cc594898137f460bfe9f0759e9844b3ce807cfb5, Qwen2.5-VL-72B-Instruct: 89c86200743eec961a297729e7990e8f2ddbc4c5}
+  tensor_parallel: {gt7b: 1, img7b: 1, gt72b: 2}
+  images: 640x480 frames at full resolution (max_pixels 1003520) = 391 tokens each, limit 8 per prompt
+- 2026-10-29 09:05 (CET), protocol v1.2 (the one prompt fix after G4 49.5 % on v1.1), before any v1.2 number:
+  code: spatialmem/p1b @ d2a493e
+  prompts_v12:
+    gt7b:  {file: data/p1b/prompts_gt7b_v12.jsonl,  n: 479, sha256: c6a948223f50b65bede351e5ad5208f69e23e8898d6f20b20453bd122470029c, tokens_max: 29032}
+    gt72b: {file: data/p1b/prompts_gt72b_v12.jsonl, n: 479, sha256: a9e12e29cdafe1dc99b8e2be0650d1d335532b58f2d9e560a0d7eaa672838930}
+  verdicts: {G4: gt7b on prompts_v12, escalation: gt72b on prompts_v12, images_only: img7b (v1.1 file, no map)}
+- correction: >-
+    2026-10-29 07:57 (CET), times only: the two additions above say 08:40 and 09:05 (CET); the true commit
+    times are 07:40 (78868af) and 07:50 (b07b980) CET. Runs started after them: 137749-137751 at 07:41:16, 137756-137757
+    at 07:50:55 CET (job log start stamps). Content unchanged.

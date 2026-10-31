@@ -1,0 +1,27 @@
+# "ours" v1 object mapper (task 004 Design). Every number the pipeline reads lives here.
+# Sources: task 004 Design (stride, min_mask_frac, voxel, margins, lambda/tau/tau_g/tau_c, top_k, min_detections);
+# ConceptGraphs defaults (dbscan_eps, dbscan_min_points, crop_pad_px) — named as deviations (DEVIATIONS.md row 9d).
+# FROZEN 2026-10-28 (task 004 step 3): config c11 of 12, picked by mean HSSD dev-5 object F1@0.25 = 0.3846
+# (dev scenes only, before any Replica run; DEVIATIONS.md row 9).
+stride: 5
+min_mask_frac: 0.002        # drop SAM masks < 0.2 % of the image
+points_per_batch: 64        # SAM2AutomaticMaskGenerator prompt batch (VRAM knob; other AMG params = Meta defaults)
+voxel: 0.01                 # m, downsample of detection and object points
+dbscan_eps: 0.1             # m (ConceptGraphs default)
+dbscan_min_points: 10       # (ConceptGraphs default)
+descriptor: crop           # FROZEN 004 c11 (Design: blend). blend = mask-weighted blend of masked crop + crop; crop = padded crop only
+crop_pad_px: 20             # padded box around the mask for the SigLIP crop (ConceptGraphs default)
+bbox_margin: 0.05           # m, candidate AABB enlargement
+geo_radius: 0.025           # m, point-to-object distance counted as overlap
+lam: 0.5                    # score = lam * geo + (1 - lam) * cos
+tau: 0.45                   # FROZEN 004 c11 (Design 0.55). merge detection into best candidate if score >= tau
+tau_g: 0.5                  # merge pass: geo >= tau_g
+tau_c: 0.7                  # FROZEN 004 c11 (Design 0.8). merge pass: cos >= tau_c
+merge_use_cos: true         # false = merge pass geometry only (tau_c ignored); the lam = 1 ablation
+merge_every: 50             # processed frames between merge passes (+ one at the end)
+top_k: 5                    # descriptor = mean of the top-k views by mask area
+min_detections: 2           # drop objects seen fewer times
+seed: 114
+sam_cfg: configs/sam2.1/sam2.1_hiera_s.yaml
+sam_ckpt: data/models/sam2.1_hiera_small.pt
+siglip: data/models/siglip2-base-patch16-224

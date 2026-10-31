@@ -1,0 +1,35 @@
+diff --git a/conceptgraph/scripts/generate_gsa_results.py b/conceptgraph/scripts/generate_gsa_results.py
+index 92b8cea..56e6798 100644
+--- a/conceptgraph/scripts/generate_gsa_results.py
++++ b/conceptgraph/scripts/generate_gsa_results.py
+@@ -217,6 +217,8 @@ def get_sam_segmentation_dense(
+             r_xyxy[3] += r_xyxy[1]
+             xyxy.append(r_xyxy)
+             conf.append(r["predicted_iou"])
++        if len(results) == 0:  # 114: a view with no SAM mask (e.g. a blank wall) -> empty, well-shaped arrays
++            return np.zeros((0, *image.shape[:2]), dtype=bool), np.zeros((0, 4)), np.zeros(0)
+         mask = np.array(mask)
+         xyxy = np.array(xyxy)
+         conf = np.array(conf)
+@@ -495,12 +497,16 @@ def main(args: argparse.Namespace):
+                 class_id=np.zeros_like(conf).astype(int),
+                 mask=mask,
+             )
+-            image_crops, image_feats, text_feats = compute_clip_features(
+-                image_rgb, detections, clip_model, clip_preprocess, clip_tokenizer, classes, args.device)
++            if len(xyxy) == 0:  # 114: no mask in this view -> empty record (as the detector branch does)
++                image_crops, image_feats, text_feats = [], [], []
++                annotated_image = image
++            else:
++                image_crops, image_feats, text_feats = compute_clip_features(
++                    image_rgb, detections, clip_model, clip_preprocess, clip_tokenizer, classes, args.device)
+ 
+-            ### Visualize results ###
+-            annotated_image, labels = vis_result_fast(
+-                image, detections, classes, instance_random_color=True)
++                ### Visualize results ###
++                annotated_image, labels = vis_result_fast(
++                    image, detections, classes, instance_random_color=True)
+             
+             cv2.imwrite(vis_save_path, annotated_image)
+         else:

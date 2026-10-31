@@ -1,0 +1,779 @@
+{
+ "cg__all": {
+  "accuracy": 0.864301,
+  "correct": 414,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.791667,
+    "correct": 95,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 1.0,
+    "correct": 120,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.816667,
+    "correct": 98,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.848739,
+    "correct": 101,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "cg__box": {
+  "accuracy": 0.283925,
+  "correct": 136,
+  "invalid": 13,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.116667,
+    "correct": 14,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.733333,
+    "correct": 88,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.2,
+    "correct": 24,
+    "invalid": 6,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.084034,
+    "correct": 10,
+    "invalid": 7,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "cg__extra": {
+  "accuracy": 0.283925,
+  "correct": 136,
+  "invalid": 23,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.133333,
+    "correct": 16,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.758333,
+    "correct": 91,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.133333,
+    "correct": 16,
+    "invalid": 10,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.109244,
+    "correct": 13,
+    "invalid": 13,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "cg__label": {
+  "accuracy": 0.417537,
+  "correct": 200,
+  "invalid": 7,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.275,
+    "correct": 33,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.783333,
+    "correct": 94,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.341667,
+    "correct": 41,
+    "invalid": 2,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.268908,
+    "correct": 32,
+    "invalid": 5,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "cg__label+extra": {
+  "accuracy": 0.542797,
+  "correct": 260,
+  "invalid": 12,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.458333,
+    "correct": 55,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.841667,
+    "correct": 101,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.383333,
+    "correct": 46,
+    "invalid": 2,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.487395,
+    "correct": 58,
+    "invalid": 10,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "cg__label+extra+miss": {
+  "accuracy": 0.805846,
+  "correct": 386,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.791667,
+    "correct": 95,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 1.0,
+    "correct": 120,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.666667,
+    "correct": 80,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.764706,
+    "correct": 91,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "cg__miss": {
+  "accuracy": 0.415449,
+  "correct": 199,
+  "invalid": 1,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.283333,
+    "correct": 34,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.833333,
+    "correct": 100,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.308333,
+    "correct": 37,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.235294,
+    "correct": 28,
+    "invalid": 1,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__all": {
+  "accuracy": 0.860125,
+  "correct": 412,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.766667,
+    "correct": 92,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 1.0,
+    "correct": 120,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.825,
+    "correct": 99,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.848739,
+    "correct": 101,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__box": {
+  "accuracy": 0.290188,
+  "correct": 139,
+  "invalid": 8,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.133333,
+    "correct": 16,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.733333,
+    "correct": 88,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.2,
+    "correct": 24,
+    "invalid": 4,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.092437,
+    "correct": 11,
+    "invalid": 4,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__extra": {
+  "accuracy": 0.304802,
+  "correct": 146,
+  "invalid": 25,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.166667,
+    "correct": 20,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.741667,
+    "correct": 89,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.2,
+    "correct": 24,
+    "invalid": 11,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.109244,
+    "correct": 13,
+    "invalid": 14,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__label": {
+  "accuracy": 0.409186,
+  "correct": 196,
+  "invalid": 2,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.308333,
+    "correct": 37,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.8,
+    "correct": 96,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.333333,
+    "correct": 40,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.193277,
+    "correct": 23,
+    "invalid": 2,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__label+extra": {
+  "accuracy": 0.521921,
+  "correct": 250,
+  "invalid": 14,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.491667,
+    "correct": 59,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.875,
+    "correct": 105,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.35,
+    "correct": 42,
+    "invalid": 4,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.369748,
+    "correct": 44,
+    "invalid": 10,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__label+extra+miss": {
+  "accuracy": 0.830898,
+  "correct": 398,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.775,
+    "correct": 93,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 1.0,
+    "correct": 120,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.758333,
+    "correct": 91,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.789916,
+    "correct": 94,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ours_v2__miss": {
+  "accuracy": 0.465553,
+  "correct": 223,
+  "invalid": 2,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.316667,
+    "correct": 38,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.808333,
+    "correct": 97,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.408333,
+    "correct": 49,
+    "invalid": 1,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.327731,
+    "correct": 39,
+    "invalid": 1,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__all": {
+  "accuracy": 0.874739,
+  "correct": 419,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.775,
+    "correct": 93,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 1.0,
+    "correct": 120,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.85,
+    "correct": 102,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.87395,
+    "correct": 104,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__box": {
+  "accuracy": 0.323591,
+  "correct": 155,
+  "invalid": 9,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.175,
+    "correct": 21,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.741667,
+    "correct": 89,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.183333,
+    "correct": 22,
+    "invalid": 6,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.193277,
+    "correct": 23,
+    "invalid": 3,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__extra": {
+  "accuracy": 0.348643,
+  "correct": 167,
+  "invalid": 28,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.208333,
+    "correct": 25,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.741667,
+    "correct": 89,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.166667,
+    "correct": 20,
+    "invalid": 14,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.277311,
+    "correct": 33,
+    "invalid": 14,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__label": {
+  "accuracy": 0.427975,
+  "correct": 205,
+  "invalid": 9,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.275,
+    "correct": 33,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.816667,
+    "correct": 98,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.291667,
+    "correct": 35,
+    "invalid": 2,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.327731,
+    "correct": 39,
+    "invalid": 7,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__label+extra": {
+  "accuracy": 0.501044,
+  "correct": 240,
+  "invalid": 12,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.35,
+    "correct": 42,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.85,
+    "correct": 102,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.383333,
+    "correct": 46,
+    "invalid": 3,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.420168,
+    "correct": 50,
+    "invalid": 9,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__label+extra+miss": {
+  "accuracy": 0.841336,
+  "correct": 403,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.783333,
+    "correct": 94,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 1.0,
+    "correct": 120,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.741667,
+    "correct": 89,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.840336,
+    "correct": 100,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ },
+ "ovo__miss": {
+  "accuracy": 0.511482,
+  "correct": 245,
+  "invalid": 0,
+  "n": 479,
+  "not_asked": 0,
+  "per_type": {
+   "counting": {
+    "accuracy": 0.375,
+    "correct": 45,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "existence": {
+    "accuracy": 0.85,
+    "correct": 102,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "find": {
+    "accuracy": 0.416667,
+    "correct": 50,
+    "invalid": 0,
+    "n": 120,
+    "not_asked": 0
+   },
+   "relation": {
+    "accuracy": 0.403361,
+    "correct": 48,
+    "invalid": 0,
+    "n": 119,
+    "not_asked": 0
+   }
+  }
+ }
+}

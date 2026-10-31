@@ -1,0 +1,46 @@
+{
+ "scene": "102815859",
+ "source": "009 raw planner outputs (Qwen2.5-VL-72B, temperature 0) + results/p1b/per_question",
+ "house_correct": {
+  "gt": [
+   13,
+   16
+  ],
+  "cg": [
+   3,
+   16
+  ]
+ },
+ "questions": [
+  {
+   "qid": "102815859:existence:0",
+   "type": "existence",
+   "question": "Is there a vase in the house?",
+   "answer_key": "yes",
+   "gt_answer": "yes",
+   "cg_answer": "no",
+   "gt_correct": true,
+   "cg_correct": false
+  },
+  {
+   "qid": "102815859:counting:1",
+   "type": "counting",
+   "question": "How many doors are there in the house?",
+   "answer_key": 2,
+   "gt_answer": "2",
+   "cg_answer": "22",
+   "gt_correct": true,
+   "cg_correct": false
+  },
+  {
+   "qid": "102815859:find:3",
+   "type": "find",
+   "question": "Which object is the couch that is next to the table lamp?",
+   "answer_key": "object 70 (couch)",
+   "gt_answer": "object 70 (couch)",
+   "cg_answer": "object 33 (couch)",
+   "gt_correct": true,
+   "cg_correct": true
+  }
+ ]
+}
