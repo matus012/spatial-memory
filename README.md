@@ -1,7 +1,7 @@
 # Spatial memory: 3D object maps for a VLM planner
 
-**Status: finished (2026-10-31), archived, read-only.** A research project. It is complete and no longer
-maintained. Issues and pull requests are closed.
+**Status: done for now (2026-10-31).** Both parts are complete and the results below are final. The project
+may be picked up again later.
 
 ![Spatial memory: the whole project on one page](media/spatial_memory_overview.png)
 
