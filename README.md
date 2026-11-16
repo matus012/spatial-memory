@@ -2,7 +2,7 @@
 
 [![Demo (90 s): an agent maps a simulated house, then a vision-language model answers questions from that map. Click to play.](media/114_spatial_memory_preview.gif)](https://matus012.github.io/spatial-memory/media/114_spatial_memory.mp4)
 
-**▶ [Play the demo video (90 s, with captions)](https://matus012.github.io/spatial-memory/media/114_spatial_memory.mp4)** — the preview above runs at 2× speed.
+**▶ [Play the demo video (90 s, with captions)](https://matus012.github.io/spatial-memory/media/114_spatial_memory.mp4)** — the preview above runs at 2× speed. Download: [media/114_spatial_memory.mp4](media/114_spatial_memory.mp4) (9 MB).
 
 ![Spatial memory: the whole project on one page](media/spatial_memory_overview.png)
 
