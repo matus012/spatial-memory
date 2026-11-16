@@ -38,7 +38,7 @@ Per method below (ConceptGraphs, OVO, ours v1/v2). No GPL detectors are used.
 
 | source | used for | licence |
 |---|---|---|
-| HSSD renders of house 102815859 (Habitat-sim streams) + its ConceptGraphs map | `media/114_demo.mp4`, `media/114_demo.gif` (`scripts/make_demo_video.py`); HSSD figures in `reports/figs/` | HSSD CC BY-NC 4.0 (derived renders; attribution `hssd/hssd-hab`) |
+| HSSD renders of house 102815859 (Habitat-sim streams) + its ConceptGraphs map | `media/114_demo.mp4`, `media/114_demo.gif` (`scripts/make_demo_video.py`); `media/114_spatial_memory.mp4`, `media/114_spatial_memory_preview.gif` (90 s captioned cut built from `media/114_demo.mp4`); HSSD figures in `reports/figs/` | HSSD CC BY-NC 4.0 (derived renders; attribution `hssd/hssd-hab`) |
 | imageio-ffmpeg 0.7.0 (bundles an ffmpeg 7.1 binary; used as a tool, not distributed) | h264 encoding | BSD-2 (wrapper) |
 
 ## Clean-room

@@ -1,9 +1,13 @@
 # Spatial memory: 3D object maps for a VLM planner
 
-**Status: done for now (2026-10-31).** Both parts are complete and the results below are final. The project
-may be picked up again later.
+[![Demo (90 s): an agent maps a simulated house, then a vision-language model answers questions from that map. Click to play.](media/114_spatial_memory_preview.gif)](https://matus012.github.io/spatial-memory/media/114_spatial_memory.mp4)
+
+**▶ [Play the demo video (90 s, with captions)](https://matus012.github.io/spatial-memory/media/114_spatial_memory.mp4)** — the preview above runs at 2× speed.
 
 ![Spatial memory: the whole project on one page](media/spatial_memory_overview.png)
+
+**Status: done for now (2026-10-31).** Both parts are complete and the results below are final. The project
+may be picked up again later.
 
 ## Goal
 Build a robot-style "spatial memory": from a camera walking through a house, make a map of every object
@@ -27,7 +31,7 @@ questions that real-world data cannot answer cleanly, because only a simulator k
   are the largest single error (for ConceptGraphs, missed objects and wrong labels tie), and errors compound.
 - **Takeaway:** the planner is not the bottleneck. The camera has to see the whole house.
 
-**Links:** [full results](RESULTS.md) · [demo video](media/114_demo.mp4) · [reproduce](#reproduce) ·
+**Links:** [full results](RESULTS.md) · [demo video](https://matus012.github.io/spatial-memory/media/114_spatial_memory.mp4) · [reproduce](#reproduce) ·
 [limits](#limits-read-before-citing-a-number) · [licences](#licences-data-clean-room) ·
 [deviations](DEVIATIONS.md)
 
@@ -36,7 +40,7 @@ Compute: TUKE PERUN cluster (H200), 19.1 GPU-hours in total.
 
 ![demo: the agent's RGB stream and the ConceptGraphs map (matched / extra / missed vs GT)](media/114_demo.gif)
 
-**Demo video (64 s):** [media/114_demo.mp4](media/114_demo.mp4) — the camera walking an HSSD house, its ConceptGraphs
+**Earlier short demo (64 s):** [media/114_demo.mp4](media/114_demo.mp4) — the camera walking an HSSD house, its ConceptGraphs
 map scored against GT, three planner questions, the headline numbers. (GitHub does not play repo mp4s inline: open
 the link and use "View raw" / download.)
 
